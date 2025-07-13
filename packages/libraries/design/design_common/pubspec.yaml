@@ -1,4 +1,4 @@
-name: venue_list
+name: design_common
 description: "A new Flutter package project."
 version: 0.0.1
 publish_to: none
@@ -10,12 +10,14 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  design_common:
-    path: ../../libraries/design/design_common
+  cached_network_image: ^3.3.0
+  flutter_cache_manager: 3.3.1
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^4.0.0
+
 
 
 # For information on the generic Dart part of this file, see the

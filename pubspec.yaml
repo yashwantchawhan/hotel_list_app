@@ -50,6 +50,10 @@ dependencies:
   shared_preferences: ^2.2.2
   intl: ^0.19.0
   url_launcher: ^6.2.2
+  venue_list:
+    path: ./packages/features/venue_list
+  design_common:
+      path: ./packages/libraries/design/design_common
 
 dev_dependencies:
   flutter_test:
