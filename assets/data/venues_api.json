@@ -1,0 +1,251 @@
+{
+    "filters": [
+        {
+            "name": "Venue type",
+            "type": "multi",
+            "categories": [
+                {
+                    "id": "Za41RRIAACMA22aW",
+                    "name": "Hotel"
+                },
+                {
+                    "id": "Za41ahIAACUA22bN",
+                    "name": "Beach club"
+                },
+                {
+                    "id": "Za41hhIAAC7M22b5",
+                    "name": "Community club"
+                }
+            ]
+        },
+        {
+            "name": "Hotel facilities",
+            "type": "multi",
+            "categories": [
+                {
+                    "id": "XE_8nhEAACIA_nYT",
+                    "name": "Beach"
+                },
+                {
+                    "id": "XE_8uxEAACEA_nab",
+                    "name": "Adults-only pool"
+                },
+                {
+                    "id": "XE_9MBEAACAA_niz",
+                    "name": "Lap pool"
+                },
+                {
+                    "id": "Yv82ERAAAPgZB5xS",
+                    "name": "Kids pool"
+                },
+                {
+                    "id": "YxrmsBEAAHzJoyML",
+                    "name": "Rooftop pool"
+                },
+                {
+                    "id": "YzPhZxEAAM-gifhg",
+                    "name": "Swim-up bar"
+                }
+            ]
+        },
+        {
+            "name": "Family access",
+            "type": "multi",
+            "categories": [
+                {
+                    "id": "XE_9TBEAACMA_nkt",
+                    "name": "Free nanny access"
+                },
+                {
+                    "id": "YvODwhAAAP0n04G8",
+                    "name": "Free access for 3 kids"
+                },
+                {
+                    "id": "YvORghAAAP0n08Ns",
+                    "name": "Free access for 2 kids"
+                },
+                {
+                    "id": "YzRBmREAANURi75d",
+                    "name": "Free access for 17-year-olds"
+                }
+            ]
+        },
+        {
+            "name": "Guest access",
+            "type": "multi",
+            "categories": [
+                {
+                    "id": "YzPPkBEAANURiak3",
+                    "name": "Venue guest rates"
+                }
+            ]
+        }
+    ],
+    "items": [
+        {
+            "section": "hotel",
+            "name": "Al Raha Beach Resort & Spa",
+            "city": "Abu Dhabi",
+            "type": "hotel",
+            "coordinates": {
+                "lat": 24.438300444955136,
+                "lng": 54.57247138023377
+            },
+            "location": "Channel Street",
+            "images": [
+                {
+                    "url": "https://privilee-media.imgix.net/privilee/0863afca-4cce-451a-ba1f-c3030a00de88_Al+Raha+beach_NEW+2023_08.png?auto=compress,format"
+                },
+                {
+                    "url": "https://privilee-media.imgix.net/privilee/371becdb-d91f-4835-a881-2534ca38f878_Al+Raha+beach_NEW+2023_12.png?auto=compress,format"
+                },
+                {
+                    "url": "https://privilee-media.imgix.net/privilee/0467bd3a-89a0-4176-b184-d08db311b512_Al+Raha+beach_NEW+2023_07.png?auto=compress,format"
+                }
+            ],
+            "categories": [
+                {
+                    "id": "XE_9TBEAACMA_nkt",
+                    "category": "Free nanny access",
+                    "title": "For one nanny, per family",
+                    "detail": [
+                        {
+                            "type": "list-item",
+                            "text": "Nannies are not permitted to use the facilities",
+                            "spans": []
+                        }
+                    ],
+                    "showOnVenuePage": true
+                },
+                {
+                    "id": "YvODwhAAAP0n04G8",
+                    "category": "Free access for 3 kids",
+                    "title": "Aged 4 - 12",
+                    "detail": [
+                        {
+                            "type": "list-item",
+                            "text": "Free access for infants and up to three kids, per family",
+                            "spans": []
+                        }
+                    ],
+                    "showOnVenuePage": true
+                },
+                {
+                    "id": "Za41RRIAACMA22aW",
+                    "category": "Hotel",
+                    "showOnVenuePage": false
+                }
+            ],
+            "openingHours": {},
+            "accessibleForGuestPass": true,
+            "overviewText": [
+                {
+                    "type": "paragraph",
+                    "text": "Get ready for family adventures at this friendly resort, boasting four pools (two for kids!), a HUGE 900-metre beach, squash courts and an array of tasty dining venues - where Privilee Members save 25%.",
+                    "spans": []
+                }
+            ],
+            "thingsToDo": [
+                {
+                    "title": "Free nanny access",
+                    "badge": "For one nanny, per family",
+                    "content": [
+                        [
+                            {
+                                "type": "list-item",
+                                "text": "Nannies are not permitted to use the facilities",
+                                "spans": []
+                            }
+                        ]
+                    ]
+                },
+                {
+                    "title": "Pool & beach",
+                    "badge": "Free access",
+                    "items": [
+                        {
+                            "image": {
+                                "url": "https://images.prismic.io/privilee/5f7f782c-8358-4240-bc59-d7c493db7192_Al+Raha+beach_NEW+2023_06.png?auto=compress,format"
+                            },
+                            "title": ""
+                        },
+                        {
+                            "image": {
+                                "url": "https://images.prismic.io/privilee/6e7e5e6d-3ff3-4550-9834-5a106e7e674c_Al+Raha+beach_NEW+2023_05.png?auto=format,compress"
+                            },
+                            "title": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "section": "hotel",
+            "name": "Address Creek Harbour",
+            "city": "Dubai",
+            "type": "hotel",
+            "coordinates": {
+                "lat": 25.208935957591883,
+                "lng": 55.34356247024185
+            },
+            "location": "Dubai Creek Harbour",
+            "images": [
+                {
+                    "url": "https://privilee-media.imgix.net/privilee/ZsWW60aF0TcGJJtv_ADGCH_Pool_003.jpg?auto=format,compress"
+                },
+                {
+                    "url": "https://privilee-media.imgix.net/privilee/ZsWW60aF0TcGJJtu_ADGCH_Pool_001.jpg?auto=format,compress"
+                }
+            ],
+            "categories": [
+                {
+                    "id": "Za41RRIAACMA22aW",
+                    "category": "Hotel",
+                    "showOnVenuePage": false
+                },
+                {
+                    "id": "YvODwhAAAP0n04G8",
+                    "category": "Free access for 3 kids",
+                    "title": "Aged 3-17",
+                    "showOnVenuePage": false
+                }
+            ],
+            "openingHours": {},
+            "accessibleForGuestPass": true,
+            "overviewText": [
+                {
+                    "type": "paragraph",
+                    "text": "Step into a world of elegance and serenity at Address Creek Harbour, where luxurious charm meets breathtaking views of Dubai's iconic skyline.",
+                    "spans": [],
+                    "direction": "ltr"
+                }
+            ],
+            "thingsToDo": [
+                {
+                    "title": "Pool & beach",
+                    "badge": "Free access",
+                    "items": [
+                        {
+                            "image": {
+                                "url": "https://images.prismic.io/privilee/ZsWW60aF0TcGJJtu_ADGCH_Pool_001.jpg?auto=format,compress"
+                            },
+                            "title": "Infinity Swimming Pool"
+                        },
+                        {
+                            "image": {},
+                            "title": "Kids Pool"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "cities": [
+        "Dubai",
+        "Abu Dhabi",
+        "Ras Al Khaimah",
+        "Ajman",
+        "Fujairah",
+        "Sharjah"
+    ]
+} 

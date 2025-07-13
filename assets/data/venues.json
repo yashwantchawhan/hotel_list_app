@@ -1,0 +1,4269 @@
+{
+  "filters": [
+    {
+      "name": "Venue type",
+      "type": "multi",
+      "categories": [
+        {
+          "id": "Za41RRIAACMA22aW",
+          "name": "Hotel"
+        },
+        {
+          "id": "Za41ahIAACUA22bN",
+          "name": "Beach club"
+        },
+        {
+          "id": "Za41hhIAAC7M22b5",
+          "name": "Community club"
+        }
+      ]
+    },
+    {
+      "name": "Hotel facilities",
+      "type": "multi",
+      "categories": [
+        {
+          "id": "XE_8nhEAACIA_nYT",
+          "name": "Beach"
+        },
+        {
+          "id": "XE_8uxEAACEA_nab",
+          "name": "Adults-only pool"
+        },
+        {
+          "id": "XE_9MBEAACAA_niz",
+          "name": "Lap pool"
+        },
+        {
+          "id": "Yv82ERAAAPgZB5xS",
+          "name": "Kids pool"
+        },
+        {
+          "id": "YxrmsBEAAHzJoyML",
+          "name": "Rooftop pool"
+        },
+        {
+          "id": "YzPhZxEAAM-gifhg",
+          "name": "Swim-up bar"
+        }
+      ]
+    },
+    {
+      "name": "Family access",
+      "type": "multi",
+      "categories": [
+        {
+          "id": "XE_9TBEAACMA_nkt",
+          "name": "Free nanny access"
+        },
+        {
+          "id": "YvODwhAAAP0n04G8",
+          "name": "Free access for 3 kids"
+        },
+        {
+          "id": "YvORghAAAP0n08Ns",
+          "name": "Free access for 2 kids"
+        },
+        {
+          "id": "YzRBmREAANURi75d",
+          "name": "Free access for 17-year-olds"
+        }
+      ]
+    },
+    {
+      "name": "Guest access",
+      "type": "multi",
+      "categories": [
+        {
+          "id": "YzPPkBEAANURiak3",
+          "name": "Venue guest rates"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "section": "hotel",
+      "name": " Al Raha Beach Resort & Spa",
+      "city": "Abu Dhabi",
+      "type": "hotel",
+      "coordinates": {
+        "lat": 24.438300444955136,
+        "lng": 54.57247138023377
+      },
+      "location": "Channel Street",
+      "images": [
+        {
+          "url": "https://privilee-media.imgix.net/privilee/0863afca-4cce-451a-ba1f-c3030a00de88_Al+Raha+beach_NEW+2023_08.png?auto=compress,format"
+        },
+        {
+          "url": "https://privilee-media.imgix.net/privilee/371becdb-d91f-4835-a881-2534ca38f878_Al+Raha+beach_NEW+2023_12.png?auto=compress,format"
+        },
+        {
+          "url": "https://privilee-media.imgix.net/privilee/0467bd3a-89a0-4176-b184-d08db311b512_Al+Raha+beach_NEW+2023_07.png?auto=compress,format"
+        }
+      ],
+      "categories": [
+        {
+          "id": "XE_9TBEAACMA_nkt",
+          "category": "Free nanny access",
+          "title": "For one nanny, per family",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "Nannies are not permitted to use the facilities",
+              "spans": []
+            }
+          ],
+          "showOnVenuePage": true
+        },
+        {
+          "id": "YvODwhAAAP0n04G8",
+          "category": "Free access for 3 kids",
+          "title": "Aged 4 - 12",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "Free access for infants and up to three kids, per family",
+              "spans": []
+            }
+          ],
+          "showOnVenuePage": true
+        },
+        {
+          "id": "YvORghAAAP0n08Ns",
+          "category": "Free access for 2 kids",
+          "title": "Aged 4 - 12",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "Free access for infants and up to three kids, per family",
+              "spans": []
+            }
+          ],
+          "showOnVenuePage": false
+        },
+        {
+          "id": "Yv82ERAAAPgZB5xS",
+          "category": "Kids pool",
+          "title": "Shaded kids pool",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "Complimentary sun loungers and towels",
+              "spans": []
+            }
+          ],
+          "showOnVenuePage": false
+        },
+        {
+          "id": "XE_8nhEAACIA_nYT",
+          "category": "Beach",
+          "title": "Beach",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "Complimentary sun loungers and towels",
+              "spans": []
+            }
+          ],
+          "showOnVenuePage": false
+        },
+        {
+          "id": "YzPPkBEAANURiak3",
+          "category": "Venue guest rates",
+          "title": "From AED 125",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "Monday to Friday: Adults - AED 125, Kids - AED 90",
+              "spans": []
+            },
+            {
+              "type": "list-item",
+              "text": "Saturday & Sunday: Adults - AED 175, Kids - AED 125",
+              "spans": []
+            }
+          ],
+          "showOnVenuePage": false
+        },
+        {
+          "id": "Za41RRIAACMA22aW",
+          "category": "Hotel",
+          "showOnVenuePage": false
+        }
+      ],
+      "openingHours": {},
+      "accessibleForGuestPass": true,
+      "overviewText": [
+        {
+          "type": "paragraph",
+          "text": "Get ready for family adventures at this friendly resort, boasting four pools (two for kids!), a HUGE 900-metre beach, squash courts and an array of tasty dining venues - where Privilee Members save 25%.",
+          "spans": []
+        }
+      ],
+      "thingsToDo": [
+        {
+          "title": "Free nanny access",
+          "badge": "For one nanny, per family",
+          "content": [
+            [
+              {
+                "type": "list-item",
+                "text": "Nannies are not permitted to use the facilities",
+                "spans": []
+              }
+            ]
+          ]
+        },
+        {
+          "title": "Free access for 3 kids",
+          "badge": "Aged 4 - 12",
+          "content": [
+            [
+              {
+                "type": "list-item",
+                "text": "Free access for infants and up to three kids, per family",
+                "spans": []
+              }
+            ]
+          ]
+        },
+        {
+          "title": "Pool & beach",
+          "badge": "Free access",
+          "items": [
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/5f7f782c-8358-4240-bc59-d7c493db7192_Al+Raha+beach_NEW+2023_06.png?auto=compress,format"
+              },
+              "title": ""
+            },
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/6e7e5e6d-3ff3-4550-9834-5a106e7e674c_Al+Raha+beach_NEW+2023_05.png?auto=format,compress"
+              },
+              "title": ""
+            },
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/58129cf9-fe3a-4418-aa44-882b41016a6f_Al+Raha+beach_NEW+2023_01.png?auto=compress,format"
+              },
+              "title": ""
+            }
+          ]
+        },
+        {
+          "title": "Guest rates",
+          "badge": "From AED 125",
+          "content": [
+            [
+              {
+                "type": "list-item",
+                "text": "Monday to Friday: Adults - AED 125, Kids - AED 90",
+                "spans": []
+              },
+              {
+                "type": "list-item",
+                "text": "Saturday & Sunday: Adults - AED 175, Kids - AED 125",
+                "spans": []
+              }
+            ]
+          ]
+        },
+        {
+          "title": "Gazelle Kids Club",
+          "subtitle": "10:00 - 19:00",
+          "content": [
+            [
+              {
+                "type": "heading3",
+                "text": "Opening hours",
+                "spans": []
+              }
+            ],
+            [
+              {
+                "type": "paragraph",
+                "text": "Monday to Sunday: 10 am - 7 pm\n",
+                "spans": [],
+                "direction": "ltr"
+              }
+            ],
+            [
+              {
+                "type": "heading3",
+                "text": "Complimentary access",
+                "spans": []
+              }
+            ],
+            [
+              {
+                "type": "list-item",
+                "text": "Children must be aged 4 - 12 years old",
+                "spans": [],
+                "direction": "ltr"
+              },
+              {
+                "type": "list-item",
+                "text": "Gazelle Kids Club is available on a walk-in basis",
+                "spans": [],
+                "direction": "ltr"
+              },
+              {
+                "type": "list-item",
+                "text": "Supervised (kids can be dropped off and collected later) ",
+                "spans": [],
+                "direction": "ltr"
+              },
+              {
+                "type": "list-item",
+                "text": "Gazelle Kids Club is located next to the kids pool",
+                "spans": [],
+                "direction": "ltr"
+              }
+            ]
+          ]
+        },
+        {
+          "title": "Al Raha Gym",
+          "subtitle": "8:00 - 22:00",
+          "badge": "Free access"
+        },
+        {
+          "title": "Body & Soul Spa",
+          "subtitle": "12:00 - 24:00",
+          "badge": "25% off"
+        },
+        {
+          "title": "Restaurants",
+          "badge": "25% off",
+          "items": [
+            {
+              "title": "Al Manzil Restaurant & Bar",
+              "image": {
+                "url": "https://images.prismic.io/privilee/075af833-a711-4de8-b24a-5dd8144e59e7_Al+Raha+Beach_Al+Manzil.jpg?auto=compress,format"
+              }
+            },
+            {
+              "title": "Azur",
+              "image": {
+                "url": "https://images.prismic.io/privilee/0ed69c36-33c1-4895-b41c-8dfff6a7761f_Al+Raha+Beach_Azur+new+color.jpg?auto=compress,format"
+              }
+            },
+            {
+              "title": "Black Pearl",
+              "image": {
+                "url": "https://images.prismic.io/privilee/e53811ce-19a8-4d34-9207-62012e12efed_Al+Raha+Beach_Black+Pearl+Bar.jpg?auto=compress,format"
+              }
+            },
+            {
+              "title": "Cafe Mozart",
+              "image": {
+                "url": "https://images.prismic.io/privilee/3aaa83bd-64cb-452a-bbaf-fd79856ec79e_Al+Raha+Beach_Cafe+Mozart.jpg?auto=compress,format"
+              }
+            },
+            {
+              "title": "La Piscine Pool Bar & Restaurant",
+              "image": {
+                "url": "https://images.prismic.io/privilee/6b993b0f-3da9-47e8-9bea-f01417f0044a_Al+Raha+Beach_La+Piscine+sunset.jpg?auto=compress,format"
+              }
+            },
+            {
+              "title": "Saraya Tent",
+              "image": {
+                "url": "https://images.prismic.io/privilee/d5920b6b-5112-4ed0-b8ed-ca92193f8598_Al+Raha+Beach_Saraya+tent2.jpg?auto=compress,format"
+              }
+            },
+            {
+              "title": "Sevilla",
+              "image": {
+                "url": "https://images.prismic.io/privilee/da11f654-9ff8-4e1b-9de6-5aa612fbed05_Al+Raha+Beach_Sevilla.jpg?auto=compress,format"
+              }
+            },
+            {
+              "title": "Wanasah",
+              "image": {
+                "url": "https://images.prismic.io/privilee/960eb485-0048-4739-81a2-a42d86bcd152_Al+Raha+Beach_Wanasah.jpg?auto=compress,format"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "hotel",
+      "name": "Address Creek Harbour",
+      "city": "Dubai",
+      "type": "hotel",
+      "coordinates": {
+        "lat": 25.208935957591883,
+        "lng": 55.34356247024185
+      },
+      "location": "Dubai Creek Harbour",
+      "images": [
+        {
+          "url": "https://privilee-media.imgix.net/privilee/ZsWW60aF0TcGJJtv_ADGCH_Pool_003.jpg?auto=format,compress"
+        },
+        {
+          "url": "https://privilee-media.imgix.net/privilee/ZsWW60aF0TcGJJtu_ADGCH_Pool_001.jpg?auto=format,compress"
+        },
+        {
+          "url": "https://privilee-media.imgix.net/privilee/ZsWW6UaF0TcGJJts_ADGCH_Dining_005.jpg?auto=format,compress"
+        }
+      ],
+      "categories": [
+        {
+          "id": "Za41RRIAACMA22aW",
+          "category": "Hotel",
+          "showOnVenuePage": false
+        },
+        {
+          "id": "YvODwhAAAP0n04G8",
+          "category": "Free access for 3 kids",
+          "title": "Aged 3-17",
+          "showOnVenuePage": false
+        }
+      ],
+      "openingHours": {},
+      "accessibleForGuestPass": true,
+      "overviewText": [
+        {
+          "type": "paragraph",
+          "text": "Step into a world of elegance and serenity at Address Creek Harbour, where luxurious charm meets breathtaking views of Dubai's iconic skyline. ",
+          "spans": [],
+          "direction": "ltr"
+        },
+        {
+          "type": "paragraph",
+          "text": "Unwind by the stunning infinity pool, enjoy a culinary journey at the venue’s world-class restaurants, or simply take in a sunset drink at the famous view point. Enjoy a slow daycay experience in Dubai Creek Harbour with complimentary pool access for Privilee Members, plus 20% off dining and drinks.",
+          "spans": [],
+          "direction": "ltr"
+        }
+      ],
+      "thingsToDo": [
+        {
+          "title": "Pool & beach",
+          "badge": "Free access",
+          "items": [
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/ZsWW60aF0TcGJJtu_ADGCH_Pool_001.jpg?auto=format,compress"
+              },
+              "title": "Infinity Swimming Pool"
+            },
+            {
+              "image": {},
+              "title": "Kids Pool"
+            }
+          ]
+        },
+        {
+          "title": "Qix Kids Club",
+          "subtitle": "10:00 - 20:00",
+          "content": [
+            [
+              {
+                "type": "heading3",
+                "text": "Opening hours",
+                "spans": [],
+                "direction": "ltr"
+              }
+            ],
+            [
+              {
+                "type": "paragraph",
+                "text": "Monday to Sunday: 10 am - 8 pm\n",
+                "spans": [],
+                "direction": "ltr"
+              }
+            ],
+            [
+              {
+                "type": "heading3",
+                "text": "1-hour complimentary access, per day",
+                "spans": [],
+                "direction": "ltr"
+              }
+            ],
+            [
+              {
+                "type": "list-item",
+                "text": "Plan your visit to Qix Kids Club via Address Creek Harbour's main venue page",
+                "spans": [],
+                "direction": "ltr"
+              },
+              {
+                "type": "list-item",
+                "text": "Upon arrival, please check-in at the pool counter on the 3rd floor",
+                "spans": [],
+                "direction": "ltr"
+              },
+              {
+                "type": "list-item",
+                "text": "Your kids can enjoy 1-hour of complimentary access; if they'd like to stay longer, there is a charge of AED 65 per additional hour",
+                "spans": [],
+                "direction": "ltr"
+              },
+              {
+                "type": "list-item",
+                "text": "Kids must be aged 4 - 16",
+                "spans": [],
+                "direction": "ltr"
+              },
+              {
+                "type": "list-item",
+                "text": "Qix Kids Club is supervised and strictly drop-off only",
+                "spans": [],
+                "direction": "ltr"
+              },
+              {
+                "type": "list-item",
+                "text": "Complimentary valet parking is available\n",
+                "spans": [],
+                "direction": "ltr"
+              }
+            ]
+          ]
+        },
+        {
+          "title": "The Spa",
+          "subtitle": "10:00 - 22:00",
+          "badge": "20% off"
+        },
+        {
+          "title": "Restaurants",
+          "badge": "20% off",
+          "items": [
+            {
+              "title": "The Patisserie",
+              "image": {
+                "url": "https://images.prismic.io/privilee/ZsWW6kaF0TcGJJtt_ADGCH_Lobby_002.jpg?auto=format,compress"
+              }
+            },
+            {
+              "title": "The Restaurant",
+              "image": {
+                "url": "https://images.prismic.io/privilee/ZsWW6UaF0TcGJJts_ADGCH_Dining_005.jpg?auto=format,compress"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "hotel",
+      "name": "BCH:CLB",
+      "city": "Dubai",
+      "type": "hotel",
+      "coordinates": {
+        "lat": 25.106430721507962,
+        "lng": 55.11179064850054
+      },
+      "location": "W Hotel, The Palm Jumeirah",
+      "images": [
+        {
+          "url": "https://privilee-media.imgix.net/privilee/Zg-HZxrFxhpPBUq3_BCH_CLB_14.png?auto=format,compress"
+        },
+        {
+          "url": "https://privilee-media.imgix.net/privilee/Zg-HnhrFxhpPBUra_BCH_CLB_42.png?auto=format,compress"
+        },
+        {
+          "url": "https://privilee-media.imgix.net/privilee/Zg-HgRrFxhpPBUrK_BCH_CLB_27.png?auto=format,compress"
+        }
+      ],
+      "categories": [
+        {
+          "id": "XE_8uxEAACEA_nab",
+          "category": "Adults-only pool",
+          "showOnVenuePage": false
+        }
+      ],
+      "openingHours": {},
+      "accessibleForGuestPass": true,
+      "overviewText": [
+        {
+          "type": "paragraph",
+          "text": "Get exclusive complimentary access to this adults-only location on The Palm! Nestled within the iconic W Dubai – The Palm Jumeirah, BCH:CLB offers an unparalleled experience blending art, entertainment, and global music.",
+          "spans": [],
+          "direction": "ltr"
+        }
+      ],
+      "thingsToDo": [
+        {
+          "title": "Pool & beach",
+          "badge": "Free access",
+          "items": [
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/Zg-HbRrFxhpPBUq6_BCH_CLB_17.png?auto=format,compress"
+              },
+              "title": "Pool"
+            }
+          ]
+        },
+        {
+          "title": "Restaurants",
+          "badge": "20% off",
+          "items": [
+            {
+              "title": "BCH:CLB Restaurant & Terrace",
+              "image": {
+                "url": "https://images.prismic.io/privilee/Zg-H3hrFxhpPBUr6_BCH_CLB_73.png?auto=format,compress"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "hotel",
+      "name": "COVEBEACH",
+      "city": "Dubai",
+      "type": "hotel",
+      "coordinates": {
+        "lat": 25.08045610321675,
+        "lng": 55.13465137462568
+      },
+      "location": "La Vie, Jumeirah Beach Residence",
+      "images": [
+        {
+          "url": "https://privilee-media.imgix.net/privilee/ZqNQFR5LeNNTxgzi_DSCF9404-HDR.png?auto=format,compress"
+        },
+        {
+          "url": "https://privilee-media.imgix.net/privilee/ZqNQIB5LeNNTxgzs_IMG_8589.png?auto=format,compress"
+        },
+        {
+          "url": "https://privilee-media.imgix.net/privilee/ZqNQFx5LeNNTxgzj_DSCF9414-HDR.png?auto=format,compress"
+        }
+      ],
+      "categories": [
+        {
+          "id": "Za41ahIAACUA22bN",
+          "category": "Beach club",
+          "showOnVenuePage": false
+        }
+      ],
+      "openingHours": {},
+      "accessibleForGuestPass": true,
+      "overviewText": [
+        {
+          "type": "paragraph",
+          "text": "Discover the stunning new COVEBEACH location at La Vie, JBR.",
+          "spans": [],
+          "direction": "ltr"
+        },
+        {
+          "type": "paragraph",
+          "text": "Enjoy adults-only access to the world-renowned beach club. Lounge by the Moët pool with picture-perfect sea views and experience unique dining concepts.",
+          "spans": [],
+          "direction": "ltr"
+        }
+      ],
+      "thingsToDo": [
+        {
+          "title": "Pool & beach",
+          "badge": "Free access",
+          "items": [
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/ZqKCBh5LeNNTxgHb_CoveBeach_Pool.jpg?auto=format,compress"
+              },
+              "title": "Pool"
+            },
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/ZqKCwR5LeNNTxgHq_CoveBeach_Beach.jpg?auto=format,compress"
+              },
+              "title": "Beach"
+            }
+          ]
+        },
+        {
+          "title": "Restaurants",
+          "badge": "20% off",
+          "items": [
+            {
+              "title": "Sierra Restaurant",
+              "image": {
+                "url": "https://images.prismic.io/privilee/ZqKIdx5LeNNTxgJz_CoveBeach_SierraRestaurant.jpg?auto=format,compress"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "hotel",
+      "name": "DoubleTree By Hilton Dubai Jumeirah Beach",
+      "city": "Dubai",
+      "type": "hotel",
+      "coordinates": {
+        "lat": 25.072849735453488,
+        "lng": 55.12871861457825
+      },
+      "location": "Jumeirah Beach Residence",
+      "images": [
+        {
+          "url": "https://privilee-media.imgix.net/privilee/ZxadsoF3NbkBXyEt_DoubleTreebyHilton_01.jpg?auto=format,compress"
+        },
+        {
+          "url": "https://privilee-media.imgix.net/privilee/Zxaem4F3NbkBXyF7_DoubleTreebyHilton_03.jpg?auto=format,compress"
+        },
+        {
+          "url": "https://privilee-media.imgix.net/privilee/ZxaeEoF3NbkBXyE__DoubleTreebyHilton_02.jpg?auto=format,compress"
+        }
+      ],
+      "categories": [
+        {
+          "id": "YvODwhAAAP0n04G8",
+          "category": "Free access for 3 kids",
+          "title": "Aged 6 - 16",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "Complimentary access for infants and up to three kids aged 6 - 16, per family",
+              "spans": []
+            }
+          ],
+          "showOnVenuePage": true
+        },
+        {
+          "id": "YvORghAAAP0n08Ns",
+          "category": "Free access for 2 kids",
+          "title": "Aged 6 - 16",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "Complimentary access for infants and up to three kids aged 6 - 16, per family",
+              "spans": []
+            }
+          ],
+          "showOnVenuePage": false
+        },
+        {
+          "id": "Yv82ERAAAPgZB5xS",
+          "category": "Kids pool",
+          "showOnVenuePage": false
+        },
+        {
+          "id": "XE_8nhEAACIA_nYT",
+          "category": "Beach",
+          "title": "Beach",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "Complimentary sun loungers and towels",
+              "spans": []
+            }
+          ],
+          "showOnVenuePage": false
+        },
+        {
+          "id": "YzPPkBEAANURiak3",
+          "category": "Venue guest rates",
+          "title": "From AED 150",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "Monday to Friday: Adult - AED 150, Child - AED 75",
+              "spans": []
+            },
+            {
+              "type": "list-item",
+              "text": "Saturday & Sunday: Adult - AED 200, Child - AED 100\nAED 100 of the adult day pass rate and  50% of the child day pass rate is redeemable on food & beverages.",
+              "spans": [
+                {
+                  "start": 52,
+                  "end": 157,
+                  "type": "em"
+                }
+              ]
+            }
+          ],
+          "showOnVenuePage": false
+        },
+        {
+          "id": "Za41RRIAACMA22aW",
+          "category": "Hotel",
+          "showOnVenuePage": false
+        }
+      ],
+      "openingHours": {},
+      "accessibleForGuestPass": true,
+      "overviewText": [
+        {
+          "type": "paragraph",
+          "text": "Just the ticket for a younger crowd, this property has a vast beach and pool, complete with swim-up bar and submerged loungers. With views of Bluewaters and Ain Dubai, the world’s largest observation wheel, there’s plenty to see. If you’re looking for a party you’ll find it here, every Friday.",
+          "spans": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "spans": []
+        }
+      ],
+      "thingsToDo": [
+        {
+          "title": "Free access for 3 kids",
+          "badge": "Aged 6 - 16",
+          "content": [
+            [
+              {
+                "type": "list-item",
+                "text": "Complimentary access for infants and up to three kids aged 6 - 16, per family",
+                "spans": []
+              }
+            ]
+          ]
+        },
+        {
+          "title": "Pool & beach",
+          "badge": "Free access",
+          "items": [
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/ZxagloF3NbkBXyHl_DoubleTreebyHilton_04.jpg?auto=format,compress"
+              },
+              "title": "Main pool"
+            },
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/ZxaeEoF3NbkBXyE__DoubleTreebyHilton_02.jpg?auto=format,compress"
+              },
+              "title": "Shaded Kids Pool"
+            },
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/88966ec01f5f67bc5ce40b561ad25dbaa5956ed4_doubletree_beach.jpg?auto=compress,format"
+              },
+              "title": "DoubleTree Beach"
+            }
+          ]
+        },
+        {
+          "title": "Guest rates",
+          "badge": "From AED 150",
+          "content": [
+            [
+              {
+                "type": "list-item",
+                "text": "Monday to Friday: Adult - AED 150, Child - AED 75",
+                "spans": []
+              },
+              {
+                "type": "list-item",
+                "text": "Saturday & Sunday: Adult - AED 200, Child - AED 100\nAED 100 of the adult day pass rate and  50% of the child day pass rate is redeemable on food & beverages.",
+                "spans": [
+                  {
+                    "start": 52,
+                    "end": 157,
+                    "type": "em"
+                  }
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "title": "Breakwater Gym ",
+          "subtitle": "09:00 - 21:00",
+          "badge": "Free access"
+        },
+        {
+          "title": "Breakwater Wellness Centre",
+          "subtitle": "09:00 - 21:00",
+          "badge": "25% off"
+        },
+        {
+          "title": "Restaurants",
+          "badge": "30% off",
+          "items": [
+            {
+              "title": "Gastro Kitchen",
+              "image": {
+                "url": "https://images.prismic.io/privilee/Z9kLOziBA97Gik3G_GastroKitchen-DoubleTreebyHilton.png?auto=format,compress"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "hotel",
+      "name": "Erth Abu Dhabi   ",
+      "city": "Abu Dhabi",
+      "type": "hotel",
+      "coordinates": {
+        "lat": 24.39974179337498,
+        "lng": 54.47294533252717
+      },
+      "location": "Khor Al Maqta",
+      "images": [
+        {
+          "url": "https://privilee-media.imgix.net/privilee/8e56e4b5-5b14-4dfe-b369-8098fa438039_Erth%26Ertizan_Pool+and+Beach+%285%29.jpg?auto=compress,format"
+        },
+        {
+          "url": "https://privilee-media.imgix.net/privilee/6e4c5c69-4a69-4a4b-9f96-7d917fa10a3c_Erth_Pool%26Beach_23.jpg?auto=compress,format"
+        },
+        {
+          "url": "https://privilee-media.imgix.net/privilee/fb674540-0d02-4d1b-8964-9cd001f8430f_Erth_Pool%26Beach_03.jpg?auto=compress,format"
+        }
+      ],
+      "categories": [
+        {
+          "id": "XE_9TBEAACMA_nkt",
+          "category": "Free nanny access",
+          "title": "Free nanny access",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "Free access for one nanny, per family",
+              "spans": []
+            },
+            {
+              "type": "list-item",
+              "text": "Nannies are not permitted to use the facilities",
+              "spans": []
+            }
+          ],
+          "showOnVenuePage": true
+        },
+        {
+          "id": "YvODwhAAAP0n04G8",
+          "category": "Free access for 3 kids",
+          "title": "3 free kids, aged 3 - 16",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "Free access for three kids, per family",
+              "spans": []
+            },
+            {
+              "type": "list-item",
+              "text": "Additional children are chargeable",
+              "spans": []
+            }
+          ],
+          "showOnVenuePage": true
+        },
+        {
+          "id": "YvORghAAAP0n08Ns",
+          "category": "Free access for 2 kids",
+          "title": "3 free kids, aged 3 - 16",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "Free access for three kids, per family",
+              "spans": []
+            },
+            {
+              "type": "list-item",
+              "text": "Additional children are chargeable",
+              "spans": []
+            }
+          ],
+          "showOnVenuePage": false
+        },
+        {
+          "id": "YzPhZxEAAM-gifhg",
+          "category": "Swim-up bar",
+          "title": "30% off beverages at Asrah swim-up bar",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "For Privilee Members + 3 guests",
+              "spans": []
+            }
+          ],
+          "showOnVenuePage": false
+        },
+        {
+          "id": "XE_8nhEAACIA_nYT",
+          "category": "Beach",
+          "title": "1km private beach",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "Complimentary sun loungers and towels",
+              "spans": []
+            }
+          ],
+          "showOnVenuePage": false
+        },
+        {
+          "id": "Yv82ERAAAPgZB5xS",
+          "category": "Kids pool",
+          "title": "Shaded kids pool",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "Complimentary sun loungers and towels",
+              "spans": []
+            }
+          ],
+          "showOnVenuePage": false
+        },
+        {
+          "id": "Za41RRIAACMA22aW",
+          "category": "Hotel",
+          "showOnVenuePage": false
+        }
+      ],
+      "openingHours": {},
+      "accessibleForGuestPass": true,
+      "overviewText": [
+        {
+          "type": "paragraph",
+          "text": "Daycay, dine and work out at this unique landmark destination in Abu Dhabi, you can do it all at Erth Abu Dhabi and Etizan Fitness! ",
+          "spans": [],
+          "direction": "ltr"
+        },
+        {
+          "type": "paragraph",
+          "text": "From relaxing daycays in a dreamy setting at Al Waryah Pool to training like a pro at Etizan Fitness - there are endless ways to get active or take time out. The world-class facilities feature a mixed and ladies-only premium gym, an Olympic-sized pool, squash court, plus sauna and steam rooms! ",
+          "spans": [],
+          "direction": "ltr"
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "spans": [],
+          "direction": "ltr"
+        }
+      ],
+      "thingsToDo": [
+        {
+          "title": "Free nanny access",
+          "badge": "Free nanny access",
+          "content": [
+            [
+              {
+                "type": "list-item",
+                "text": "Free access for one nanny, per family",
+                "spans": []
+              },
+              {
+                "type": "list-item",
+                "text": "Nannies are not permitted to use the facilities",
+                "spans": []
+              }
+            ]
+          ]
+        },
+        {
+          "title": "Free access for 3 kids",
+          "badge": "3 free kids, aged 3 - 16",
+          "content": [
+            [
+              {
+                "type": "list-item",
+                "text": "Free access for three kids, per family",
+                "spans": []
+              },
+              {
+                "type": "list-item",
+                "text": "Additional children are chargeable",
+                "spans": []
+              }
+            ]
+          ]
+        },
+        {
+          "title": "Pool & beach",
+          "badge": "Free access",
+          "items": [
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/fb674540-0d02-4d1b-8964-9cd001f8430f_Erth_Pool%26Beach_03.jpg?auto=compress,format"
+              },
+              "title": "Al Waryah Pool"
+            },
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/7dcf0584-5657-449c-a1aa-87e47c929193_Erth%26Ertizan_Kids+pool.jpg?auto=compress,format"
+              },
+              "title": "Kids Pool"
+            },
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/392f123f-751f-4594-be59-f539327e70ea_Erth_Pool%26Beach_09.jpg?auto=compress,format"
+              },
+              "title": "Beach"
+            },
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/e3739ba1-148d-4326-829a-8d873454f60a_Erth%26Ertizan_Olympic+Pool+%281%29.jpg?auto=compress,format"
+              },
+              "title": "Olympic-sized Lap Pool"
+            }
+          ]
+        },
+        {
+          "title": "Etizan Fitness  ",
+          "subtitle": "10:00 - 01:00",
+          "badge": "Free access"
+        },
+        {
+          "title": "Restaurants",
+          "badge": "30% off",
+          "items": [
+            {
+              "title": "Al Rimal",
+              "image": {
+                "url": "https://images.prismic.io/privilee/e46da6f7-8880-4a0e-8f32-94de83db7744_Erth%26Ertizan_Al+Rimal+%281%29.jpg?auto=compress,format"
+              }
+            },
+            {
+              "title": "Beetza",
+              "image": {
+                "url": "https://images.prismic.io/privilee/2954ef14-a038-4562-9971-bb6e8e89da55_Erth%26Ertizan_Beetza+%281%29+1.jpg?auto=compress,format"
+              }
+            },
+            {
+              "title": "Ramsa",
+              "image": {
+                "url": "https://images.prismic.io/privilee/89d11264-fa04-4d06-bfa0-feea925103e4_Erth%26Ertizan_Ramsa+%282%29.jpg?auto=compress,format"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "hotel",
+      "name": "Fairmont Ajman",
+      "city": "Ajman",
+      "type": "hotel",
+      "coordinates": {
+        "lat": 25.41763053255148,
+        "lng": 55.43927354330228
+      },
+      "location": "Fairmont Ajman",
+      "images": [
+        {
+          "url": "https://privilee-media.imgix.net/privilee/Z0hKepbqstJ97265_Fairmont_Ajman_Hotel_01.jpg?auto=format,compress"
+        },
+        {
+          "url": "https://privilee-media.imgix.net/privilee/Z0hKgpbqstJ97267_Fairmont_Ajman_Hotel_02.jpg?auto=format,compress"
+        },
+        {
+          "url": "https://privilee-media.imgix.net/privilee/Z0hKhZbqstJ97268_Fairmont_Ajman_Hotel_03.jpg?auto=format,compress"
+        }
+      ],
+      "categories": [],
+      "openingHours": {},
+      "accessibleForGuestPass": true,
+      "overviewText": [
+        {
+          "type": "paragraph",
+          "text": "Escape to Fairmont Ajman for the ultimate beach escape! Enjoy relaxed days by the infinity pool or on the private sandy beach, surrounded by palm trees and beautiful sea views.  Whether you're chilling in a private cabana, sipping cocktails at the swim-up bar, or soaking up the sun, there's plenty to enjoy. Families, get ready for fun with kids' club activities like treasure hunts and sandcastle building, plus the Aqua Bounce floating water park.",
+          "spans": [],
+          "direction": "ltr"
+        }
+      ],
+      "thingsToDo": [
+        {
+          "title": "Pool & beach",
+          "badge": "Free access",
+          "items": [
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/Z0hKgpbqstJ97267_Fairmont_Ajman_Hotel_02.jpg?auto=format,compress"
+              },
+              "title": "Pool"
+            },
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/Z0hKhZbqstJ97268_Fairmont_Ajman_Hotel_03.jpg?auto=format,compress"
+              },
+              "title": "Beach"
+            },
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/Z0hayZbqstJ973Gl_Aqua_Bounce_01.png?auto=format,compress"
+              },
+              "title": "Aqua Bounce"
+            }
+          ]
+        },
+        {
+          "title": "Kid's Club",
+          "content": [
+            [
+              {
+                "type": "heading3",
+                "text": "Complimentary access",
+                "spans": [],
+                "direction": "ltr"
+              }
+            ],
+            [
+              {
+                "type": "list-item",
+                "text": "Book your visit to Fairmont Ajman's Kid's Club via the 'Plan a visit' button on Fairmont Ajman's Privilee Page",
+                "spans": [],
+                "direction": "ltr"
+              },
+              {
+                "type": "list-item",
+                "text": "Upon arrival, please check-in at the pool reception",
+                "spans": [],
+                "direction": "ltr"
+              },
+              {
+                "type": "list-item",
+                "text": "Kids must be aged 2 - 12",
+                "spans": [],
+                "direction": "ltr"
+              },
+              {
+                "type": "list-item",
+                "text": "Complimentary valet parking is available",
+                "spans": [],
+                "direction": "ltr"
+              }
+            ]
+          ]
+        },
+        {
+          "title": "Salt & Sea Club"
+        },
+        {
+          "title": "Wellbeings Holistic Healing",
+          "subtitle": "10:00 - 22:00",
+          "badge": "20% off"
+        },
+        {
+          "title": "Restaurants",
+          "badge": "20% off",
+          "items": [
+            {
+              "title": "Gioia Restaurant",
+              "image": {
+                "url": "https://images.prismic.io/privilee/Z0gCPpbqstJ972Zz_Gioia_01.png?auto=format,compress"
+              }
+            },
+            {
+              "title": "Kiyi",
+              "image": {
+                "url": "https://images.prismic.io/privilee/Z0gCRJbqstJ972Z2_Kiyi_01.png?auto=format,compress"
+              }
+            },
+            {
+              "title": "Spectrum",
+              "image": {
+                "url": "https://images.prismic.io/privilee/Z0gCS5bqstJ972Z5_Spectrum_01.png?auto=format,compress"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "hotel",
+      "name": "Grand Hyatt Abu Dhabi",
+      "city": "Abu Dhabi",
+      "type": "hotel",
+      "coordinates": {
+        "lat": 24.45822479609923,
+        "lng": 54.320708513259895
+      },
+      "location": "Corniche",
+      "images": [
+        {
+          "url": "https://privilee-media.imgix.net/privilee%2F3ad90404-895b-452c-97b0-1f1824a0130d_grand_hyatt_pool.jpg?auto=compress,format"
+        },
+        {
+          "url": "https://privilee-media.imgix.net/privilee/Zuq9ELVsGrYSvhoR_GrandHyattAbuDhabi_06.png?auto=format,compress"
+        },
+        {
+          "url": "https://privilee-media.imgix.net/privilee/Zuq9JLVsGrYSvhok_GrandHyattAbuDhabi_11.png?auto=format,compress"
+        }
+      ],
+      "categories": [
+        {
+          "id": "XE_9TBEAACMA_nkt",
+          "category": "Free nanny access",
+          "title": "Free nanny access",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "Free access for one nanny, per family",
+              "spans": []
+            },
+            {
+              "type": "list-item",
+              "text": "Nannies are not permitted to use the facilities",
+              "spans": []
+            }
+          ],
+          "showOnVenuePage": true
+        },
+        {
+          "id": "YvORghAAAP0n08Ns",
+          "category": "Free access for 2 kids",
+          "title": "2 free kids, aged 3 - 15",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "Free access for two kids, per family",
+              "spans": []
+            },
+            {
+              "type": "list-item",
+              "text": "Additional children are chargeable",
+              "spans": []
+            }
+          ],
+          "showOnVenuePage": true
+        },
+        {
+          "id": "XE_8nhEAACIA_nYT",
+          "category": "Beach",
+          "title": "Beach",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "Complimentary sun loungers",
+              "spans": []
+            }
+          ],
+          "showOnVenuePage": false
+        },
+        {
+          "id": "YzPPkBEAANURiak3",
+          "category": "Venue guest rates",
+          "title": "Guest rates at AED 200",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "Monday to Sunday - Adults: AED 200, Kids: AED 150",
+              "spans": []
+            }
+          ],
+          "showOnVenuePage": false
+        },
+        {
+          "id": "Za41RRIAACMA22aW",
+          "category": "Hotel",
+          "showOnVenuePage": false
+        }
+      ],
+      "openingHours": {},
+      "accessibleForGuestPass": true,
+      "overviewText": [
+        {
+          "type": "paragraph",
+          "text": "This property is the definition of gym goals. There’s no compromising on your workout when you have access to a full range of high-tech cardio and strength equipment, plus an outdoor running track and space for agility and freestyle training. Cool down with a dip in the infinity pool, which overlooks the breathtaking Arabian Gulf.",
+          "spans": []
+        }
+      ],
+      "thingsToDo": [
+        {
+          "title": "Free nanny access",
+          "badge": "Free nanny access",
+          "content": [
+            [
+              {
+                "type": "list-item",
+                "text": "Free access for one nanny, per family",
+                "spans": []
+              },
+              {
+                "type": "list-item",
+                "text": "Nannies are not permitted to use the facilities",
+                "spans": []
+              }
+            ]
+          ]
+        },
+        {
+          "title": "Free access for 2 kids",
+          "badge": "2 free kids, aged 3 - 15",
+          "content": [
+            [
+              {
+                "type": "list-item",
+                "text": "Free access for two kids, per family",
+                "spans": []
+              },
+              {
+                "type": "list-item",
+                "text": "Additional children are chargeable",
+                "spans": []
+              }
+            ]
+          ]
+        },
+        {
+          "title": "Pool & beach",
+          "badge": "Free access",
+          "items": [
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/ae5e796887e9aad86c72e307e7618e1076897b2d_grand_hyatt_pool.jpg?auto=compress,format"
+              },
+              "title": "Pool"
+            },
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee%2Ff309f735-7b04-4cd8-86b0-3bd9ddb54350_grand-hyatt-pool-02-desktop-.jpg?auto=compress,format"
+              },
+              "title": "Beach"
+            }
+          ]
+        },
+        {
+          "title": "Guest rates",
+          "badge": "Guest rates at AED 200",
+          "content": [
+            [
+              {
+                "type": "list-item",
+                "text": "Monday to Sunday - Adults: AED 200, Kids: AED 150",
+                "spans": []
+              }
+            ]
+          ]
+        },
+        {
+          "title": "Luma Health Club",
+          "subtitle": "6:30 - 21:30",
+          "badge": "Free access to mixed gym facilities"
+        },
+        {
+          "title": "Lum'a Spa"
+        },
+        {
+          "title": "Restaurants",
+          "badge": "20% off",
+          "items": [
+            {
+              "title": "Pearl Lounge",
+              "image": {
+                "url": "https://images.prismic.io/privilee%2Fbeb01d1b-4060-44f2-b116-c122a8fa7077_pearl-lounge_-grand-hyatt-ad.jpg?auto=compress,format"
+              }
+            },
+            {
+              "title": "Sahha",
+              "image": {
+                "url": "https://images.prismic.io/privilee/25fad974-d900-4776-9e02-9a7127c719fe_Grand+Hyatt_Sahha.png?auto=compress,format"
+              }
+            },
+            {
+              "title": "Verso",
+              "image": {
+                "url": "https://images.prismic.io/privilee/3c7ad8cdaf9fa271c03bb7497ecb74976f3ed248_verso_grand_hyatt_ad_01.jpg?auto=compress,format"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "hotel",
+      "name": "Hilton  Dubai Al Habtoor City",
+      "city": "Dubai",
+      "type": "hotel",
+      "coordinates": {
+        "lat": 25.18468994360559,
+        "lng": 55.25502920150757
+      },
+      "location": "Al Habtoor City, Sheikh Zayed Road",
+      "images": [
+        {
+          "url": "https://privilee-media.imgix.net/privilee/Z3uIH5bqstJ99D-q_HiltonAlHabtoorCity_Hero-Image.png?auto=format,compress"
+        },
+        {
+          "url": "https://privilee-media.imgix.net/privilee/c27623c264aa072dd5ab49caf27fc2757bbb9e32_hilton-ahc-pool-2.jpg?auto=compress,format"
+        },
+        {
+          "url": "https://privilee-media.imgix.net/privilee/dc248b71e0e0645455d08fe554357e45a9667289_hilton-ahc-pool-03.jpg?auto=compress,format"
+        }
+      ],
+      "categories": [
+        {
+          "id": "XE_9TBEAACMA_nkt",
+          "category": "Free nanny access",
+          "title": "For one nanny, per family",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "Nannies are not permitted to use the facilities",
+              "spans": []
+            }
+          ],
+          "showOnVenuePage": true
+        },
+        {
+          "id": "YvORghAAAP0n08Ns",
+          "category": "Free access for 2 kids",
+          "title": "Aged 4 - 16",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "Complimentary access for infants and up to two kids aged 4 - 16, per family",
+              "spans": []
+            }
+          ],
+          "showOnVenuePage": true
+        },
+        {
+          "id": "XE_9MBEAACAA_niz",
+          "category": "Lap pool",
+          "showOnVenuePage": false
+        },
+        {
+          "id": "Yv82ERAAAPgZB5xS",
+          "category": "Kids pool",
+          "showOnVenuePage": false
+        },
+        {
+          "id": "YzPPkBEAANURiak3",
+          "category": "Venue guest rates",
+          "title": "AED 150",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "Monday to Sunday: Adult - AED 150, Child - AED 100",
+              "spans": []
+            }
+          ],
+          "showOnVenuePage": false
+        },
+        {
+          "id": "YzPhZxEAAM-gifhg",
+          "category": "Swim-up bar",
+          "title": "Swim-up bar",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "20% off for Privilee Members and up to four guests",
+              "spans": []
+            }
+          ],
+          "showOnVenuePage": false
+        },
+        {
+          "id": "Za41RRIAACMA22aW",
+          "category": "Hotel",
+          "showOnVenuePage": false
+        }
+      ],
+      "openingHours": {},
+      "accessibleForGuestPass": true,
+      "overviewText": [
+        {
+          "type": "paragraph",
+          "text": "Make a splash at the rooftop pool away from the hustle of the City! Cool off in crystal-clear waters, sunbathe on plush loungers, or enjoy a refreshing drink at our poolside bar. Fun for the whole family!",
+          "spans": [],
+          "direction": "ltr"
+        }
+      ],
+      "thingsToDo": [
+        {
+          "title": "Free nanny access",
+          "badge": "For one nanny, per family",
+          "content": [
+            [
+              {
+                "type": "list-item",
+                "text": "Nannies are not permitted to use the facilities",
+                "spans": []
+              }
+            ]
+          ]
+        },
+        {
+          "title": "Free access for 2 kids",
+          "badge": "Aged 4 - 16",
+          "content": [
+            [
+              {
+                "type": "list-item",
+                "text": "Complimentary access for infants and up to two kids aged 4 - 16, per family",
+                "spans": []
+              }
+            ]
+          ]
+        },
+        {
+          "title": "Pool & beach",
+          "badge": "Free access",
+          "items": [
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/e488836661fabac4c9eec20af77e928f6ac838d2_hilton-ahc-poool-01.jpg?auto=compress,format"
+              },
+              "title": "Main pool"
+            },
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/e521f93ae68f8d0a3c488e6350dafaaeb59d124c_hilton-ahc-pool-07.jpg?auto=compress,format"
+              },
+              "title": "Lap pool"
+            },
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/dc248b71e0e0645455d08fe554357e45a9667289_hilton-ahc-pool-03.jpg?auto=compress,format"
+              },
+              "title": "Pool "
+            },
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/7110d78844c7f73a5b55b94bdc243e6759b09965_hilton-ahc-pool-05.jpg?auto=compress,format"
+              },
+              "title": "Kids Pool"
+            },
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/f0f3cca1863c2ea7c1ecad316a0f9e806fb994f9_hilton-ahc-pool-04.jpg?auto=compress,format"
+              },
+              "title": "Main Jacuzzi"
+            },
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/4fc8f6ee5d42dda91245d24d0f10745272efeb7c_hilton-ahc-pool-08.jpg?auto=compress,format"
+              },
+              "title": "Small Jacuzzi"
+            }
+          ]
+        },
+        {
+          "title": "Guest rates",
+          "badge": "AED 150",
+          "content": [
+            [
+              {
+                "type": "list-item",
+                "text": "Monday to Sunday: Adult - AED 150, Child - AED 100",
+                "spans": []
+              }
+            ]
+          ]
+        },
+        {
+          "title": "Kids Club",
+          "subtitle": "10:00 - 20:00",
+          "content": [
+            [
+              {
+                "type": "heading3",
+                "text": "Opening hours",
+                "spans": []
+              }
+            ],
+            [
+              {
+                "type": "paragraph",
+                "text": "Monday to Friday: 10 am - 8 pm\nSaturday & Sunday: 9 am - 8 pm\n",
+                "spans": [],
+                "direction": "ltr"
+              }
+            ],
+            [
+              {
+                "type": "heading3",
+                "text": "1-hour complimentary access",
+                "spans": [],
+                "direction": "ltr"
+              }
+            ],
+            [
+              {
+                "type": "list-item",
+                "text": "Children must be aged 4 - 12 years old",
+                "spans": [],
+                "direction": "ltr"
+              },
+              {
+                "type": "list-item",
+                "text": "Please note, infants aged 3 and below can access, however, they must be accompanied by an adult or guardian at all times",
+                "spans": [],
+                "direction": "ltr"
+              },
+              {
+                "type": "list-item",
+                "text": "Upon arrival, please check in at the fitness reception on the 7th floor and have your digital membership card ready for a smooth check-in experience; the Kids Club is located on the 7th floor, beside the main pool",
+                "spans": [],
+                "direction": "ltr"
+              },
+              {
+                "type": "list-item",
+                "text": "Supervised care - your kids can be dropped off and collected later as long as you remain on the hotel premises",
+                "spans": [],
+                "direction": "ltr"
+              }
+            ]
+          ]
+        },
+        {
+          "title": "V Gym ",
+          "subtitle": "6:00 - 23:00",
+          "badge": "Free access to mixed gym facilities"
+        },
+        {
+          "title": "Restaurants",
+          "badge": "20% off",
+          "items": [
+            {
+              "title": "Babiole",
+              "image": {
+                "url": "https://images.prismic.io/privilee/Zg7GQhrFxhpPBUCY_HiltonAlHabtoor_Babiole_01.png?auto=format,compress"
+              }
+            },
+            {
+              "title": "The Cafe",
+              "image": {
+                "url": "https://images.prismic.io/privilee%2Fb4022d31-a189-41c2-b002-706022080305_daily-treats_-hilton-al-habtoor-city-1.jpg?auto=compress,format"
+              }
+            },
+            {
+              "title": "The Market",
+              "image": {
+                "url": "https://images.prismic.io/privilee/Z3uIIZbqstJ99D-r_HiltonAlHabtoorCity_TheMarket.png?auto=format,compress"
+              }
+            },
+            {
+              "title": "The Rose & Crown",
+              "image": {
+                "url": "https://images.prismic.io/privilee/Zg69EzskWekewDxM_HiltonAlHabtoor_RoseandCrown_01.png?auto=format,compress"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "hotel",
+      "name": "InterContinental Abu Dhabi",
+      "city": "Abu Dhabi",
+      "type": "hotel",
+      "coordinates": {
+        "lat": 24.45796111202341,
+        "lng": 54.32913064956665
+      },
+      "location": "Corniche",
+      "images": [
+        {
+          "url": "https://privilee-media.imgix.net/privilee/a667b942cced088a9904379c2164bf8f686c0d85_intercontinental-ad-beach-01.jpg?auto=compress,format"
+        },
+        {
+          "url": "https://privilee-media.imgix.net/privilee/73bddd5328982def39e5d05743c49e0a5a750bb6_intercontinental-ad-beach-02.jpg?auto=compress,format"
+        },
+        {
+          "url": "https://privilee-media.imgix.net/privilee/108cd088aa5f33e9f3e231a2023de80a88355eee_intercontinental-ad-pool-01.jpg?auto=compress,format"
+        }
+      ],
+      "categories": [
+        {
+          "id": "YvODwhAAAP0n04G8",
+          "category": "Free access for 3 kids",
+          "title": "3 free kids, aged 3 - 16",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "Free access for three kids, per family",
+              "spans": []
+            },
+            {
+              "type": "list-item",
+              "text": "Additional children are chargeable",
+              "spans": []
+            }
+          ],
+          "showOnVenuePage": true
+        },
+        {
+          "id": "YvORghAAAP0n08Ns",
+          "category": "Free access for 2 kids",
+          "title": "3 free kids, aged 3 - 16",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "Free access for three kids, per family",
+              "spans": []
+            },
+            {
+              "type": "list-item",
+              "text": "Additional children are chargeable",
+              "spans": []
+            }
+          ],
+          "showOnVenuePage": false
+        },
+        {
+          "id": "Yv82ERAAAPgZB5xS",
+          "category": "Kids pool",
+          "title": "Shaded kids pool",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "Complimentary sun loungers and towels",
+              "spans": []
+            }
+          ],
+          "showOnVenuePage": false
+        },
+        {
+          "id": "XE_8nhEAACIA_nYT",
+          "category": "Beach",
+          "title": "Beach",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "Complimentary sun loungers and towels",
+              "spans": []
+            }
+          ],
+          "showOnVenuePage": false
+        },
+        {
+          "id": "YzPPkBEAANURiak3",
+          "category": "Venue guest rates",
+          "title": "Guest rates from AED 109",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "Monday to Friday - Adults: AED 109, Kids: AED 65",
+              "spans": []
+            },
+            {
+              "type": "list-item",
+              "text": "Saturday & Sunday - Adults: AED 169, Kids: AED 99",
+              "spans": []
+            }
+          ],
+          "showOnVenuePage": false
+        },
+        {
+          "id": "Za41RRIAACMA22aW",
+          "category": "Hotel",
+          "showOnVenuePage": false
+        }
+      ],
+      "openingHours": {},
+      "accessibleForGuestPass": true,
+      "overviewText": [
+        {
+          "type": "paragraph",
+          "text": "If private beaches are your preference, take a family day trip to this luxury location. Stroll along the sand, paddle in the pool and let the little ones loose on water slides and playgrounds. For some of the finest Japanese cuisine around, stop for sushi at Cho Gao Marina Walk restaurant, bar and lounge.",
+          "spans": []
+        }
+      ],
+      "thingsToDo": [
+        {
+          "title": "Free access for 3 kids",
+          "badge": "3 free kids, aged 3 - 16",
+          "content": [
+            [
+              {
+                "type": "list-item",
+                "text": "Free access for three kids, per family",
+                "spans": []
+              },
+              {
+                "type": "list-item",
+                "text": "Additional children are chargeable",
+                "spans": []
+              }
+            ]
+          ]
+        },
+        {
+          "title": "Pool & beach",
+          "badge": "Free access",
+          "items": [
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/08c1f31a7079398a9d8522199f9bcb978b035102_intercontinental-ad-pool-03.jpg?auto=compress,format"
+              },
+              "title": "Main Pool"
+            },
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/98aa34ca9370d032177ca9b96cd8c64bf01787c3_intercontinental-ad-kids-pool-01.jpg?auto=compress,format"
+              },
+              "title": "Shaded Kids Pool"
+            },
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/d8eeaeb25ee0e001c358eb359242c0a98abe240d_intercontinental-ad-beach-02.jpg?auto=compress,format"
+              },
+              "title": "InterContinental Beach"
+            }
+          ]
+        },
+        {
+          "title": "Guest rates",
+          "badge": "Guest rates from AED 109",
+          "content": [
+            [
+              {
+                "type": "list-item",
+                "text": "Monday to Friday - Adults: AED 109, Kids: AED 65",
+                "spans": []
+              },
+              {
+                "type": "list-item",
+                "text": "Saturday & Sunday - Adults: AED 169, Kids: AED 99",
+                "spans": []
+              }
+            ]
+          ]
+        },
+        {
+          "title": "Bayshore Club Gym",
+          "subtitle": "06:00 - 23:00",
+          "badge": "Free access to mixed gym facilities"
+        },
+        {
+          "title": "Spa InterContinental Abu Dhabi",
+          "subtitle": "10:00 - 22:00",
+          "badge": "25% off"
+        },
+        {
+          "title": "Restaurants",
+          "badge": "30% off",
+          "items": [
+            {
+              "title": "Belgian Café",
+              "image": {
+                "url": "https://images.prismic.io/privilee/a39a91ca61d9484b192f915e7e83e0554e13cb5e_belgian-cafe-abu-dhabi-1-interconti-abu-dhabi.jpg?auto=compress,format"
+              }
+            },
+            {
+              "title": "Byblos Sur Mer",
+              "image": {
+                "url": "https://images.prismic.io/privilee/c7e564d0579d7894180f0e10ed415050a17a9dc5_byblos_intercon_ad_01.jpg?auto=compress,format"
+              }
+            },
+            {
+              "title": "Chamas Churrascaria & Bar",
+              "image": {
+                "url": "https://images.prismic.io/privilee/82e7e13bb93ee3991b57847cec75c3b7b41528ba_chamas-01.jpg?auto=compress,format"
+              }
+            },
+            {
+              "title": "Cho Gao Asian Restaurant & Lounge",
+              "image": {
+                "url": "https://images.prismic.io/privilee/2d70005c6e8ca43a2beedfb4ea4a665397d5869e_cho-gao-01.jpg?auto=compress,format"
+              }
+            },
+            {
+              "title": "Fishmarket",
+              "image": {
+                "url": "https://images.prismic.io/privilee/ebaac759c9461c603c4c7b58f79f703a9983864a_fishmarket-01.jpg?auto=compress,format"
+              }
+            },
+            {
+              "title": "Selections",
+              "image": {
+                "url": "https://images.prismic.io/privilee/f1a9d6cfc60db8de9cb881da5af28e26b60ad0d7_selections-restaurant.jpg?auto=compress,format"
+              }
+            },
+            {
+              "title": "The Bayshore",
+              "image": {
+                "url": "https://images.prismic.io/privilee/7ba18ab0-1c61-4656-9427-eb922ace0dca_IN_APP_STOCK_IMAGE_BARS.jpg?auto=compress,format"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "hotel",
+      "name": "JA Beach Resort",
+      "city": "Dubai",
+      "type": "hotel",
+      "coordinates": {
+        "lat": 24.98683599716234,
+        "lng": 55.02385497093201
+      },
+      "location": "Jebel Ali",
+      "images": [
+        {
+          "url": "https://privilee-media.imgix.net/privilee/Z9z-XziBA97GiwBH_JAResort_Slider_01.png?auto=format,compress"
+        },
+        {
+          "url": "https://privilee-media.imgix.net/privilee/Z9z-ZjiBA97GiwBJ_JAResort_Slider_03.png?auto=format,compress"
+        },
+        {
+          "url": "https://privilee-media.imgix.net/privilee/Z9z-YjiBA97GiwBI_JAResort_Slider_02.png?auto=format,compress"
+        }
+      ],
+      "categories": [
+        {
+          "id": "XE_9TBEAACMA_nkt",
+          "category": "Free nanny access",
+          "title": "For one nanny, per family",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "Please note, nannies are not permitted to use the facilities",
+              "spans": []
+            }
+          ],
+          "showOnVenuePage": true
+        },
+        {
+          "id": "YvODwhAAAP0n04G8",
+          "category": "Free access for 3 kids",
+          "title": "Aged 4 - 16",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "Complimentary access for infants and up to three kids aged 4 - 16, per family",
+              "spans": []
+            }
+          ],
+          "showOnVenuePage": true
+        },
+        {
+          "id": "YvORghAAAP0n08Ns",
+          "category": "Free access for 2 kids",
+          "title": "Aged 4 - 16",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "Complimentary access for infants and up to three kids aged 4 - 16, per family",
+              "spans": []
+            }
+          ],
+          "showOnVenuePage": false
+        },
+        {
+          "id": "XE_8nhEAACIA_nYT",
+          "category": "Beach",
+          "title": "Beach",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "Complimentary sun loungers and towels",
+              "spans": []
+            }
+          ],
+          "showOnVenuePage": false
+        },
+        {
+          "id": "YzPhZxEAAM-gifhg",
+          "category": "Swim-up bar",
+          "title": "Swim-up bar",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "20% off for Privilee Members and up to five guests",
+              "spans": [],
+              "direction": "ltr"
+            }
+          ],
+          "showOnVenuePage": false
+        },
+        {
+          "id": "YzPPkBEAANURiak3",
+          "category": "Venue guest rates",
+          "title": "AED 150",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "Monday to Sunday: Adult - AED 150\nThe above rate is a special offer for guests of Privilee Members, and AED 50 is redeemable on food & beverages.",
+              "spans": [
+                {
+                  "start": 34,
+                  "end": 145,
+                  "type": "em"
+                }
+              ]
+            }
+          ],
+          "showOnVenuePage": false
+        },
+        {
+          "id": "Za41RRIAACMA22aW",
+          "category": "Hotel",
+          "showOnVenuePage": false
+        }
+      ],
+      "openingHours": {},
+      "accessibleForGuestPass": true,
+      "overviewText": [
+        {
+          "type": "paragraph",
+          "text": "This 128-acre five-star resort is a ‘magical Privilee daycation wonderland’ that you won't ever want to leave! With access to a stunning golden sand beach, multiple pools, gym, spa and activity centre, there will be something for the whole family to enjoy. From crazy golf, a bird sanctuary, squash courts, badminton, table tennis plus multiple restaurants and bars, you’re sure to find something to suit you.",
+          "spans": [],
+          "direction": "ltr"
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "spans": [],
+          "direction": "ltr"
+        }
+      ],
+      "thingsToDo": [
+        {
+          "title": "Free nanny access",
+          "badge": "For one nanny, per family",
+          "content": [
+            [
+              {
+                "type": "list-item",
+                "text": "Please note, nannies are not permitted to use the facilities",
+                "spans": []
+              }
+            ]
+          ]
+        },
+        {
+          "title": "Free access for 3 kids",
+          "badge": "Aged 4 - 16",
+          "content": [
+            [
+              {
+                "type": "list-item",
+                "text": "Complimentary access for infants and up to three kids aged 4 - 16, per family",
+                "spans": []
+              }
+            ]
+          ]
+        },
+        {
+          "title": "Pool & beach",
+          "badge": "Free access",
+          "items": [
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/Z9z-iTiBA97GiwBV_JA_The_Resort_AnchorPool.png?auto=format,compress"
+              },
+              "title": "Anchor Pool"
+            },
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/473fbc03-1fe5-479a-bdf8-bdd124fdd5ed_La-fontana-pool.jpg?auto=compress,format"
+              },
+              "title": "La Fontana Pool"
+            },
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/Z9z-jziBA97GiwBY_JA_The_Resort_PalmitoPool.png?auto=format,compress"
+              },
+              "title": "Palmito Pool"
+            },
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/Z9z-kTiBA97GiwBZ_JA_The_Resort_SplashPool.png?auto=format,compress"
+              },
+              "title": "Splash Pool"
+            },
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/Z9z-iziBA97GiwBW_JA_The_Resort_Beach.png?auto=format,compress"
+              },
+              "title": "JA Beach"
+            }
+          ]
+        },
+        {
+          "title": "Guest rates",
+          "badge": "AED 150",
+          "content": [
+            [
+              {
+                "type": "list-item",
+                "text": "Monday to Sunday: Adult - AED 150\nThe above rate is a special offer for guests of Privilee Members, and AED 50 is redeemable on food & beverages.",
+                "spans": [
+                  {
+                    "start": 34,
+                    "end": 145,
+                    "type": "em"
+                  }
+                ]
+              }
+            ]
+          ]
+        },
+        {
+          "title": "Pirates & Mermaids Kids Club",
+          "subtitle": "10:00 - 18:00",
+          "content": [
+            [
+              {
+                "type": "heading3",
+                "text": "Opening hours",
+                "spans": []
+              }
+            ],
+            [
+              {
+                "type": "paragraph",
+                "text": "Monday to Sunday: 10 am - 1 pm | 3 pm - 6 pm\n",
+                "spans": [],
+                "direction": "ltr"
+              }
+            ],
+            [
+              {
+                "type": "heading3",
+                "text": "Complimentary access",
+                "spans": []
+              }
+            ],
+            [
+              {
+                "type": "list-item",
+                "text": "Access is subject to availability and a booking is required 24 hours prior to arrival; to make a booking please contact Pirates & Mermaids Kids Club at +971 4 814 5657 or kidsclub.jatr@jaresorts.com\n\nPlease note, on weekends, complimentary access it limited to 1-hour per child.",
+                "spans": [
+                  {
+                    "start": 152,
+                    "end": 167,
+                    "type": "hyperlink",
+                    "data": {
+                      "link_type": "Web",
+                      "url": "tel:+97148145657",
+                      "target": "_blank"
+                    }
+                  },
+                  {
+                    "start": 171,
+                    "end": 198,
+                    "type": "hyperlink",
+                    "data": {
+                      "link_type": "Web",
+                      "url": "mailto:kidsclub.jatr@jaresorts.com",
+                      "target": "_blank"
+                    }
+                  },
+                  {
+                    "start": 200,
+                    "end": 278,
+                    "type": "em"
+                  }
+                ],
+                "direction": "ltr"
+              },
+              {
+                "type": "list-item",
+                "text": "Pirates & Mermaids Kids Club is supervised for children aged 4 - 12",
+                "spans": [],
+                "direction": "ltr"
+              },
+              {
+                "type": "list-item",
+                "text": "Pirates and Mermaids Kids Club is located to the right of JA Beach Hotel's main car park",
+                "spans": [],
+                "direction": "ltr"
+              },
+              {
+                "type": "list-item",
+                "text": "Strictly drop-off only, parents are not permitted to stay ",
+                "spans": [],
+                "direction": "ltr"
+              },
+              {
+                "type": "list-item",
+                "text": "Please note, for infants, the Crèche is available at a charge\n",
+                "spans": [],
+                "direction": "ltr"
+              }
+            ]
+          ]
+        },
+        {
+          "title": "Pony Rides",
+          "subtitle": "07:00 - 19:00",
+          "content": [
+            [
+              {
+                "type": "heading3",
+                "text": "Opening hours",
+                "spans": []
+              }
+            ],
+            [
+              {
+                "type": "paragraph",
+                "text": "Monday to Sunday: 7 am - 12 pm | 4 pm - 7 pm\n",
+                "spans": [],
+                "direction": "ltr"
+              }
+            ],
+            [
+              {
+                "type": "heading3",
+                "text": "Bookings",
+                "spans": []
+              }
+            ],
+            [
+              {
+                "type": "list-item",
+                "text": "Your little ones can enjoy 10% off pony rides, from Monday to Friday",
+                "spans": [],
+                "direction": "ltr"
+              },
+              {
+                "type": "list-item",
+                "text": "To make a booking, please contact JA Equestrian Centre on +971 4 814 5555",
+                "spans": [
+                  {
+                    "start": 58,
+                    "end": 73,
+                    "type": "hyperlink",
+                    "data": {
+                      "link_type": "Web",
+                      "url": "tel:+971 4 814 5555",
+                      "target": "_blank"
+                    }
+                  }
+                ],
+                "direction": "ltr"
+              },
+              {
+                "type": "list-item",
+                "text": "When making a booking, please mention that you are a Privilee Member",
+                "spans": [],
+                "direction": "ltr"
+              }
+            ]
+          ]
+        },
+        {
+          "title": "Club Jumana Gym",
+          "subtitle": "7:00 - 19:00",
+          "badge": "Free access to mixed gym facilities"
+        },
+        {
+          "title": "Calm Spa & Salon",
+          "subtitle": "10:00 - 19:00",
+          "badge": "30% off"
+        },
+        {
+          "title": "Restaurants",
+          "badge": "20% off",
+          "items": [
+            {
+              "title": "Anchor Pool Bar",
+              "image": {
+                "url": "https://images.prismic.io/privilee/144e09d1-d1d1-4efb-9c89-7d871f38d0ad_JA+Resort+-+Anchor+Pool+Bar.png?auto=compress,format"
+              }
+            },
+            {
+              "title": "Captain's Restaurant & Bar",
+              "image": {
+                "url": "https://images.prismic.io/privilee/d111e0f7-397f-4680-9cd9-4fffc16902e8_Captain%27s-bar.jpg?auto=compress,format"
+              }
+            },
+            {
+              "title": "Ibn Majed",
+              "image": {
+                "url": "https://images.prismic.io/privilee/6243cdb9-4d08-4d2e-a758-2bbade0966bc_JA+Resort+-+Ibn+Majed.png?auto=compress,format"
+              }
+            },
+            {
+              "title": "La Fontana Pool Bar"
+            },
+            {
+              "title": "La Fontana Restaurant",
+              "image": {
+                "url": "https://images.prismic.io/privilee/f5e3b7d2-9045-4bcc-85bc-e044be4ab7c4_JA+Resort+-+La+Fontana+Restaurant.png?auto=compress,format"
+              }
+            },
+            {
+              "title": "Palmito Pool Bar",
+              "image": {
+                "url": "https://images.prismic.io/privilee/5d95500c-fbd2-4622-911c-fa67e3b740ed_JA+Resort+-+Palmito+Pool+Bar.png?auto=compress,format"
+              }
+            },
+            {
+              "title": "Sette",
+              "image": {
+                "url": "https://images.prismic.io/privilee/b601d05c-2217-49a9-8ee6-91eafba90dac_JA+Resort+-+Sette.png?auto=compress,format"
+              }
+            },
+            {
+              "title": "Shooters",
+              "image": {
+                "url": "https://images.prismic.io/privilee/0dfbfcd2-fd09-4486-a063-207dcde00892_JA+The+Resort+-+Shooters.1.png?auto=compress,format"
+              }
+            },
+            {
+              "title": "Sunset Lounge",
+              "image": {
+                "url": "https://images.prismic.io/privilee/7594515f-817b-411e-ac70-f1e6c1ccb8e8_JA+Resort+-+Sunset+Lounge.png?auto=compress,format"
+              }
+            },
+            {
+              "title": "Taperia",
+              "image": {
+                "url": "https://images.prismic.io/privilee/8e6632f6-be6c-482e-8d62-a6f8d028db7e_JA+Resort+-+Taperia.png?auto=compress,format"
+              }
+            },
+            {
+              "title": "White Orchid Restaurant And Lounge",
+              "image": {
+                "url": "https://images.prismic.io/privilee/d45a1300-93c5-4f0c-a96b-59512f5488ba_JA+The+Resort+-+White+Orchid.4.png?auto=compress,format"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "hotel",
+      "name": "Kempinski Hotel & Residences Palm Jumeirah",
+      "city": "Dubai",
+      "type": "hotel",
+      "coordinates": {
+        "lat": 25.112987610946103,
+        "lng": 55.10907411575318
+      },
+      "location": "The Palm",
+      "images": [
+        {
+          "url": "https://privilee-media.imgix.net/privilee/6e97a48c5d4938c1fcba6ef64595cd6f3934e997_kempinski-pool-and--beach-01.jpg?auto=compress,format"
+        },
+        {
+          "url": "https://privilee-media.imgix.net/privilee/9162905a61beef8cf78cffafb03a6ff604388966_kempinski-pool-and-beach-02.jpg?auto=compress,format"
+        },
+        {
+          "url": "https://privilee-media.imgix.net/privilee/842d40b113a503ece180b0e18a450a201ebbff7e_kempinski-pool-and-beach-03.jpg?auto=compress,format"
+        }
+      ],
+      "categories": [
+        {
+          "id": "XE_9TBEAACMA_nkt",
+          "category": "Free nanny access",
+          "title": "Free nanny access",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "Free access for one nanny, per family",
+              "spans": []
+            },
+            {
+              "type": "list-item",
+              "text": "Nannies are not permitted to use the facilities",
+              "spans": []
+            }
+          ],
+          "showOnVenuePage": true
+        },
+        {
+          "id": "YvODwhAAAP0n04G8",
+          "category": "Free access for 3 kids",
+          "title": "3 free kids, aged 3 - 15",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "Free access for three kids, per family",
+              "spans": []
+            },
+            {
+              "type": "list-item",
+              "text": "Additional children are chargeable",
+              "spans": []
+            }
+          ],
+          "showOnVenuePage": true
+        },
+        {
+          "id": "YvORghAAAP0n08Ns",
+          "category": "Free access for 2 kids",
+          "title": "3 free kids, aged 3 - 15",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "Free access for three kids, per family",
+              "spans": []
+            },
+            {
+              "type": "list-item",
+              "text": "Additional children are chargeable",
+              "spans": []
+            }
+          ],
+          "showOnVenuePage": false
+        },
+        {
+          "id": "YzPPkBEAANURiak3",
+          "category": "Venue guest rates",
+          "title": "Guest rates at AED 250",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "Monday to Sunday - Adults: AED 225",
+              "spans": []
+            },
+            {
+              "type": "list-item",
+              "text": "Rates are fully redeemable on food & beverage consumption",
+              "spans": []
+            }
+          ],
+          "showOnVenuePage": false
+        },
+        {
+          "id": "Yv82ERAAAPgZB5xS",
+          "category": "Kids pool",
+          "title": "Shaded kids pool",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "Complimentary sun loungers and towels",
+              "spans": []
+            }
+          ],
+          "showOnVenuePage": false
+        },
+        {
+          "id": "XE_8nhEAACIA_nYT",
+          "category": "Beach",
+          "title": "Beach",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "Complimentary sun loungers and towels",
+              "spans": []
+            }
+          ],
+          "showOnVenuePage": false
+        },
+        {
+          "id": "YzPhZxEAAM-gifhg",
+          "category": "Swim-up bar",
+          "title": "20% off beverages at Kempinski's swim-up bar",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "For Privilee Members + 10 guests",
+              "spans": []
+            }
+          ],
+          "showOnVenuePage": false
+        }
+      ],
+      "openingHours": {},
+      "accessibleForGuestPass": true,
+      "overviewText": [
+        {
+          "type": "paragraph",
+          "text": "Be wowed by views of Jumeirah Beach and Dubai Marina at this spectacular Palm property. Laze on a beachfront lounger or keep cool in the huge pool with swim-up bar and jacuzzi beds, ideal for the hottest of days. Meanwhile, little guests can splash in the shaded kids pool or try new activities in the kids club.",
+          "spans": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "spans": []
+        }
+      ],
+      "thingsToDo": [
+        {
+          "title": "Free nanny access",
+          "badge": "Free nanny access",
+          "content": [
+            [
+              {
+                "type": "list-item",
+                "text": "Free access for one nanny, per family",
+                "spans": []
+              },
+              {
+                "type": "list-item",
+                "text": "Nannies are not permitted to use the facilities",
+                "spans": []
+              }
+            ]
+          ]
+        },
+        {
+          "title": "Free access for 3 kids",
+          "badge": "3 free kids, aged 3 - 15",
+          "content": [
+            [
+              {
+                "type": "list-item",
+                "text": "Free access for three kids, per family",
+                "spans": []
+              },
+              {
+                "type": "list-item",
+                "text": "Additional children are chargeable",
+                "spans": []
+              }
+            ]
+          ]
+        },
+        {
+          "title": "Pool & beach",
+          "badge": "Free access",
+          "items": [
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/9162905a61beef8cf78cffafb03a6ff604388966_kempinski-pool-and-beach-02.jpg?auto=compress,format"
+              },
+              "title": "Main Pool"
+            },
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/f06ba11fe8fbf164980c86240f58b1bce16699a8_kempinski-pool-and-beach-04.jpg?auto=compress,format"
+              },
+              "title": "Shaded Kids Pool"
+            },
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/3054c4b5b8e442801e52f8a86530fa991aab1cf0_kempinski-pool-and-beach-05.jpg?auto=compress,format"
+              },
+              "title": "Kempinski Beach"
+            }
+          ]
+        },
+        {
+          "title": "Guest rates",
+          "badge": "Guest rates at AED 250",
+          "content": [
+            [
+              {
+                "type": "list-item",
+                "text": "Monday to Sunday - Adults: AED 225",
+                "spans": []
+              },
+              {
+                "type": "list-item",
+                "text": "Rates are fully redeemable on food & beverage consumption",
+                "spans": []
+              }
+            ]
+          ]
+        },
+        {
+          "title": "Kempinski Kids Club",
+          "subtitle": "09:00 - 18:00",
+          "content": [
+            [
+              {
+                "type": "heading3",
+                "text": "Opening hours",
+                "spans": []
+              }
+            ],
+            [
+              {
+                "type": "paragraph",
+                "text": "Monday to Sunday: 9am - 6pm",
+                "spans": [],
+                "direction": "ltr"
+              }
+            ],
+            [
+              {
+                "type": "heading3",
+                "text": "Complimentary access",
+                "spans": []
+              }
+            ],
+            [
+              {
+                "type": "list-item",
+                "text": "Children must be aged 2 - 12 years old",
+                "spans": []
+              },
+              {
+                "type": "list-item",
+                "text": "A booking is required, please contact Kempinski via the 'Call' button below",
+                "spans": []
+              },
+              {
+                "type": "list-item",
+                "text": "Kempinski's Kids Club is located on 2nd floor of the hotel",
+                "spans": []
+              },
+              {
+                "type": "list-item",
+                "text": "Supervised for children aged 4 and above (kids can be dropped off and collected later) ",
+                "spans": []
+              },
+              {
+                "type": "list-item",
+                "text": "Children aged 2 - 3 must be accompanied by an adult",
+                "spans": []
+              }
+            ]
+          ]
+        },
+        {
+          "title": "Restaurants",
+          "badge": "20% off",
+          "items": [
+            {
+              "title": "Brunello",
+              "image": {
+                "url": "https://images.prismic.io/privilee/b8c9e1248f6e817d00dbb40ce0f5f43f0a68a704_brunello-01.jpg?auto=compress,format"
+              }
+            },
+            {
+              "title": "Villamore",
+              "image": {
+                "url": "https://images.prismic.io/privilee/Zel173Uurf2G3LmG_KempinskiPalm-Villamore.png?auto=format,compress"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "hotel",
+      "name": "Le Meridien Abu Dhabi",
+      "city": "Abu Dhabi",
+      "type": "hotel",
+      "coordinates": {
+        "lat": 24.498913419639756,
+        "lng": 54.381160140037544
+      },
+      "location": "Al Zahiyah",
+      "images": [
+        {
+          "url": "https://privilee-media.imgix.net/privilee/5c803e23-9dca-471a-8be7-73700a6a51b4_Le-Meridien-Abu-Dhabi_Pool-1_MOD.png?auto=compress,format"
+        },
+        {
+          "url": "https://privilee-media.imgix.net/privilee/145f3f24-719e-493b-a128-004cbf75dcda_Kids+Outdoor+Pool+Le+Meridien+Abu+Dhabi.png?auto=compress,format"
+        },
+        {
+          "url": "https://privilee-media.imgix.net/privilee/28095453-0617-4568-921e-393ad2351214_Le+Meridien+Abu+Dhabi_Private+Beach+1.png?auto=compress,format"
+        }
+      ],
+      "categories": [
+        {
+          "id": "XE_9TBEAACMA_nkt",
+          "category": "Free nanny access",
+          "showOnVenuePage": true
+        },
+        {
+          "id": "YvODwhAAAP0n04G8",
+          "category": "Free access for 3 kids",
+          "title": "Aged 5 - 17",
+          "showOnVenuePage": false
+        },
+        {
+          "id": "XE_8nhEAACIA_nYT",
+          "category": "Beach",
+          "showOnVenuePage": false
+        },
+        {
+          "id": "Yv82ERAAAPgZB5xS",
+          "category": "Kids pool",
+          "showOnVenuePage": false
+        },
+        {
+          "id": "Za41RRIAACMA22aW",
+          "category": "Hotel",
+          "showOnVenuePage": false
+        }
+      ],
+      "openingHours": {},
+      "accessibleForGuestPass": true,
+      "overviewText": [
+        {
+          "type": "paragraph",
+          "text": "Experience a five-star resort, Le Méridien Abu Dhabi! Whether you’re looking for a relaxing pool day, family fun, or a new workout spot, the renowned location in Al Zahiyah has so much to offer.",
+          "spans": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "spans": []
+        }
+      ],
+      "thingsToDo": [
+        {
+          "title": "Pool & beach",
+          "badge": "Free access",
+          "items": [
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/b2f1fe02-3032-4d49-a1a3-a991b2b40edd_Le+Meridien+Abu+Dhabi_Pool+4.png?auto=compress,format"
+              },
+              "title": "Main Pool"
+            },
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/145f3f24-719e-493b-a128-004cbf75dcda_Kids+Outdoor+Pool+Le+Meridien+Abu+Dhabi.png?auto=compress,format"
+              },
+              "title": "Kids Pool"
+            },
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/28095453-0617-4568-921e-393ad2351214_Le+Meridien+Abu+Dhabi_Private+Beach+1.png?auto=compress,format"
+              },
+              "title": "Beach"
+            }
+          ]
+        },
+        {
+          "title": "Fitness Center",
+          "subtitle": "07:00 - 22:00"
+        },
+        {
+          "title": "Restaurants",
+          "badge": "20% off",
+          "items": [
+            {
+              "title": "Al Finjan",
+              "image": {
+                "url": "https://images.prismic.io/privilee/7d78db5c-3061-452a-a4c0-67d28189c6d6_Le+Meridien+Abu+Dhabi_Al+Finjan+1.png?auto=compress,format"
+              }
+            },
+            {
+              "title": "Latest Recipe",
+              "image": {
+                "url": "https://images.prismic.io/privilee/ee86de30-5be1-405f-87d5-5ed408b6a27a_Le+Meridien+Abu+Dhabi_Latest+Recipe+3.png?auto=compress,format"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "hotel",
+      "name": "Mare by Bussola",
+      "city": "Dubai",
+      "type": "hotel",
+      "coordinates": {
+        "lat": 25.09444888852143,
+        "lng": 55.1476138183506
+      },
+      "location": "Dubai Marina",
+      "images": [
+        {
+          "url": "https://privilee-media.imgix.net/privilee/ZflPPA4qyfNhFxtt_The_Westin_Mina_Seyahi_Relaunch-024.png?auto=format,compress"
+        },
+        {
+          "url": "https://privilee-media.imgix.net/privilee/ZflPZg4qyfNhFxt8_Marebybussola_2400x1600_01.png?auto=format,compress"
+        },
+        {
+          "url": "https://privilee-media.imgix.net/privilee/ZflPQQ4qyfNhFxtv_The_Westin_Mina_Seyahi_Relaunch-059.png?auto=format,compress"
+        }
+      ],
+      "categories": [
+        {
+          "id": "Za41ahIAACUA22bN",
+          "category": "Beach club",
+          "showOnVenuePage": false
+        }
+      ],
+      "openingHours": {},
+      "accessibleForGuestPass": true,
+      "overviewText": [
+        {
+          "type": "paragraph",
+          "text": "Experience a taste of Italy by the sea at Mare by Bussola! Enjoy adults-only daycations at this chic beach club inspired by the Italian Riviera.",
+          "spans": [],
+          "direction": "ltr"
+        }
+      ],
+      "thingsToDo": [
+        {
+          "title": "Pool & beach",
+          "badge": "Free access",
+          "items": [
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/ZflPPA4qyfNhFxtt_The_Westin_Mina_Seyahi_Relaunch-024.png?auto=format,compress"
+              },
+              "title": "Pool"
+            },
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/ZflPQQ4qyfNhFxtv_The_Westin_Mina_Seyahi_Relaunch-059.png?auto=format,compress"
+              },
+              "title": "Beach"
+            }
+          ]
+        },
+        {
+          "title": "Restaurants",
+          "badge": "25% off",
+          "items": [
+            {
+              "title": "Bussola Pizzeria",
+              "image": {
+                "url": "https://images.prismic.io/privilee/ZflOwA4qyfNhFxtL_BussolaPizzeria_2400x1600_07.png?auto=format,compress"
+              }
+            },
+            {
+              "title": "Bussola Restaurant",
+              "image": {
+                "url": "https://images.prismic.io/privilee/ZflO0A4qyfNhFxtR_Bussola_2400x1600_04.png?auto=format,compress"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "hotel",
+      "name": "Nikki Beach Resort & Spa Dubai",
+      "city": "Dubai",
+      "type": "hotel",
+      "coordinates": {
+        "lat": 25.245860273635994,
+        "lng": 55.256139280802415
+      },
+      "location": "Pearl Jumeirah",
+      "images": [
+        {
+          "url": "https://privilee-media.imgix.net/privilee/3189589c-b311-4854-91b4-bd492cc3035d_Nikki+Beach+Resort+and+Spa_Hotel+Pool+with+sunbeds.png?auto=format,compress"
+        },
+        {
+          "url": "https://privilee-media.imgix.net/privilee/e8e5332d-6ae9-4d7c-9ff1-f0902ae68c3c_Nikki+Beach+Resort+and+Spa_WQEQWE.png?auto=format,compress"
+        },
+        {
+          "url": "https://privilee-media.imgix.net/privilee/c26a8f99-2965-4e06-a89e-582bec316dcc_Nikki+Beach+Resort+and+Spa__Aerial.png?auto=format,compress"
+        }
+      ],
+      "categories": [
+        {
+          "id": "Za41RRIAACMA22aW",
+          "category": "Hotel",
+          "showOnVenuePage": false
+        }
+      ],
+      "openingHours": {},
+      "accessibleForGuestPass": true,
+      "overviewText": [
+        {
+          "type": "paragraph",
+          "text": "Experience the world-famous Nikki Beach Resort & Spa Dubai with Privilee! Explore what’s waiting for you at this jaw-dropping destination and get ready to enjoy complimentary adults-only pool and beach access.",
+          "spans": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "spans": []
+        }
+      ],
+      "thingsToDo": [
+        {
+          "title": "Pool & beach",
+          "badge": "Free access",
+          "items": [
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/e8e5332d-6ae9-4d7c-9ff1-f0902ae68c3c_Nikki+Beach+Resort+and+Spa_WQEQWE.png?auto=format,compress"
+              },
+              "title": "Pool"
+            },
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/c26a8f99-2965-4e06-a89e-582bec316dcc_Nikki+Beach+Resort+and+Spa__Aerial.png?auto=format,compress"
+              },
+              "title": "Beach"
+            }
+          ]
+        },
+        {
+          "title": "TONE Gym",
+          "subtitle": "07:00 - 20:00"
+        },
+        {
+          "title": "Nikki Spa",
+          "subtitle": "11:00 - 21:00",
+          "badge": "20% off"
+        },
+        {
+          "title": "Restaurants",
+          "badge": "20% off",
+          "items": [
+            {
+              "title": "Café Nikki",
+              "image": {
+                "url": "https://images.prismic.io/privilee/14cfc198-af2a-40d8-a4de-9c08d81be70c_Nikki+Beach+Resort+and+Spa_Cafe+_Indoors_Stories.png?auto=format,compress"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "hotel",
+      "name": "PLAYA Dubai",
+      "city": "Dubai",
+      "type": "hotel",
+      "coordinates": {
+        "lat": 25.110064814506558,
+        "lng": 55.1385661437228
+      },
+      "location": "The Club, Palm West Beach, The Palm Jumeirah",
+      "images": [
+        {
+          "url": "https://privilee-media.imgix.net/privilee/ZqijXR5LeNNTxlhv_Playa-23.png?auto=format,compress"
+        },
+        {
+          "url": "https://privilee-media.imgix.net/privilee/ZqijZB5LeNNTxlh0_Playa-27.png?auto=format,compress"
+        },
+        {
+          "url": "https://privilee-media.imgix.net/privilee/ZqijXB5LeNNTxlhu_Playa-22.png?auto=format,compress"
+        }
+      ],
+      "categories": [
+        {
+          "id": "Za41ahIAACUA22bN",
+          "category": "Beach club",
+          "showOnVenuePage": false
+        }
+      ],
+      "openingHours": {},
+      "accessibleForGuestPass": true,
+      "overviewText": [
+        {
+          "type": "paragraph",
+          "text": "Discover a dreamy beach club located in the heart of Palm West Beach. Enjoy complimentary adults-only pool and beach access, plus 20% off the delicious Peruvian-inspired menu. This is the perfect setting to unwind at the pool or on the beach while enjoying the Insta-worthy setting. When the sun sets the vibes heat up with live DJs and a buzzing atmosphere to complete the ultimate daycay experience on the Palm. ",
+          "spans": [],
+          "direction": "ltr"
+        }
+      ],
+      "thingsToDo": [
+        {
+          "title": "Pool & beach",
+          "badge": "Free access",
+          "items": [
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/Zqijax5LeNNTxlh3_Playa-30.png?auto=format,compress"
+              },
+              "title": "Pool"
+            },
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/f48d8a7c-3483-4061-b82d-3c204aa2e8a8_IN_APP_STOCK_IMAGE_BEACH.jpg?auto=format,compress"
+              },
+              "title": "Beach"
+            }
+          ]
+        },
+        {
+          "title": "Restaurants",
+          "badge": "20% off",
+          "items": [
+            {
+              "title": "PLAYA Dubai",
+              "image": {
+                "url": "https://images.prismic.io/privilee/ZqijcR5LeNNTxlh7_Playa-36.png?auto=format,compress"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "hotel",
+      "name": "RIVA Beach Club",
+      "city": "Dubai",
+      "type": "hotel",
+      "coordinates": {
+        "lat": 25.112778745420858,
+        "lng": 55.14390528202057
+      },
+      "location": "The Palm",
+      "images": [
+        {
+          "url": "https://privilee-media.imgix.net/privilee/84d5e00faa6a1369790971df15a413a25650b87a_riva-pool-02.jpg?auto=compress,format"
+        },
+        {
+          "url": "https://privilee-media.imgix.net/privilee/9d12fc258ce98b5acf5c9a6af4b07bd2739219dc_riva-pool-03.jpg?auto=compress,format"
+        },
+        {
+          "url": "https://privilee-media.imgix.net/privilee/acf98665f7eeb358f13fcd43166bd95a981e8cc1_riva-kids-pool-01.jpg?auto=compress,format"
+        }
+      ],
+      "categories": [
+        {
+          "id": "YvODwhAAAP0n04G8",
+          "category": "Free access for 3 kids",
+          "title": "3 free kids, aged 6 - 12",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "Free access for three kids, per family",
+              "spans": []
+            },
+            {
+              "type": "list-item",
+              "text": "Additional children are chargeable",
+              "spans": []
+            }
+          ],
+          "showOnVenuePage": true
+        },
+        {
+          "id": "YvORghAAAP0n08Ns",
+          "category": "Free access for 2 kids",
+          "title": "3 free kids, aged 6 - 12",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "Free access for three kids, per family",
+              "spans": []
+            },
+            {
+              "type": "list-item",
+              "text": "Additional children are chargeable",
+              "spans": []
+            }
+          ],
+          "showOnVenuePage": false
+        },
+        {
+          "id": "Yv82ERAAAPgZB5xS",
+          "category": "Kids pool",
+          "title": "Shaded kids pool",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "Complimentary sun loungers and towels",
+              "spans": []
+            }
+          ],
+          "showOnVenuePage": false
+        },
+        {
+          "id": "XE_8nhEAACIA_nYT",
+          "category": "Beach",
+          "title": "Beach",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "Complimentary sun loungers and towels",
+              "spans": []
+            }
+          ],
+          "showOnVenuePage": false
+        },
+        {
+          "id": "YzPPkBEAANURiak3",
+          "category": "Venue guest rates",
+          "title": "Guest rates from AED 75",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "Monday to Friday - Adults: AED 75, Kids: AED 45",
+              "spans": []
+            },
+            {
+              "type": "list-item",
+              "text": "Saturday & Sunday - Adults: AED 150, Kids: AED 45",
+              "spans": []
+            }
+          ],
+          "showOnVenuePage": false
+        },
+        {
+          "id": "Za41ahIAACUA22bN",
+          "category": "Beach club",
+          "showOnVenuePage": false
+        }
+      ],
+      "openingHours": {},
+      "accessibleForGuestPass": true,
+      "overviewText": [
+        {
+          "type": "paragraph",
+          "text": "Marvel at the magnificent Burj Al Arab from the pool or beach at this welcoming property. Spend a peaceful morning sampling the organic breakfast menu or try the tasty bresaola pizza or local catch for lunch.",
+          "spans": []
+        }
+      ],
+      "thingsToDo": [
+        {
+          "title": "Free access for 3 kids",
+          "badge": "3 free kids, aged 6 - 12",
+          "content": [
+            [
+              {
+                "type": "list-item",
+                "text": "Free access for three kids, per family",
+                "spans": []
+              },
+              {
+                "type": "list-item",
+                "text": "Additional children are chargeable",
+                "spans": []
+              }
+            ]
+          ]
+        },
+        {
+          "title": "Pool & beach",
+          "badge": "Free access",
+          "items": [
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee%2F0be8e18c-a470-4ab7-9612-a6a6ce563fc0_riva-pool-03.jpg?auto=compress,format"
+              },
+              "title": "Main Pool"
+            },
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/acf98665f7eeb358f13fcd43166bd95a981e8cc1_riva-kids-pool-01.jpg?auto=compress,format"
+              },
+              "title": "Shaded Kids Pool"
+            },
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/ea6e21d7721a1adaa21fc8aa8f669d548a276db0_riva-dubai-beach-01.jpg?auto=compress,format"
+              },
+              "title": "RIVA Beach"
+            }
+          ]
+        },
+        {
+          "title": "Guest rates",
+          "badge": "Guest rates from AED 75",
+          "content": [
+            [
+              {
+                "type": "list-item",
+                "text": "Monday to Friday - Adults: AED 75, Kids: AED 45",
+                "spans": []
+              },
+              {
+                "type": "list-item",
+                "text": "Saturday & Sunday - Adults: AED 150, Kids: AED 45",
+                "spans": []
+              }
+            ]
+          ]
+        },
+        {
+          "title": "Restaurants",
+          "badge": "30% off",
+          "items": [
+            {
+              "title": "RIVA Ristorante",
+              "image": {
+                "url": "https://images.prismic.io/privilee/8ecdf01cee4c1a3570e820e3be751e1fb8f61e65_riva-ristorante-01.jpg?auto=compress,format"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "hotel",
+      "name": "Shangri-La Abu Dhabi",
+      "city": "Abu Dhabi",
+      "type": "hotel",
+      "coordinates": {
+        "lat": 24.406698265906208,
+        "lng": 54.490717649459846
+      },
+      "location": "Al Maqta",
+      "images": [
+        {
+          "url": "https://privilee-media.imgix.net/privilee/c2a35b0d-04b3-4b9f-9616-6f77d1b7da9f_ShangriLa_11.04.2022+%285+of+45%29%402x.jpg?auto=compress,format"
+        },
+        {
+          "url": "https://privilee-media.imgix.net/privilee/9652abe5-5211-4df5-9527-1dc200f703d7_ShangriLa_11.04.2022+%281+of+45%29%402x.jpg?auto=compress,format"
+        },
+        {
+          "url": "https://privilee-media.imgix.net/privilee/19da4ad8-94ba-4561-b141-072613033b2d_ShangriLa_11.04.2022+%288+of+45%29%402x.jpg?auto=compress,format"
+        }
+      ],
+      "categories": [
+        {
+          "id": "XE_9TBEAACMA_nkt",
+          "category": "Free nanny access",
+          "title": "Free nanny access",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "Free access for one nanny, per family",
+              "spans": []
+            },
+            {
+              "type": "list-item",
+              "text": "Nannies are not permitted to use the facilities",
+              "spans": []
+            }
+          ],
+          "showOnVenuePage": true
+        },
+        {
+          "id": "YvODwhAAAP0n04G8",
+          "category": "Free access for 3 kids",
+          "title": "3 free kids, aged 6 - 17",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "Free access for three kids, per family",
+              "spans": []
+            },
+            {
+              "type": "list-item",
+              "text": "Additional children are chargeable",
+              "spans": []
+            }
+          ],
+          "showOnVenuePage": true
+        },
+        {
+          "id": "YvORghAAAP0n08Ns",
+          "category": "Free access for 2 kids",
+          "title": "3 free kids, aged 6 - 17",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "Free access for three kids, per family",
+              "spans": []
+            },
+            {
+              "type": "list-item",
+              "text": "Additional children are chargeable",
+              "spans": []
+            }
+          ],
+          "showOnVenuePage": false
+        },
+        {
+          "id": "YzRBmREAANURi75d",
+          "category": "Free access for 17-year-olds",
+          "title": "Free access for 17 year olds",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "Free access for three kids aged 6 - 17, per family",
+              "spans": []
+            }
+          ],
+          "showOnVenuePage": false
+        },
+        {
+          "id": "YzPPkBEAANURiak3",
+          "category": "Venue guest rates",
+          "title": "Guest rates at AED 250",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "Monday to Sunday - Adults: AED 250, Kids: AED 100",
+              "spans": []
+            },
+            {
+              "type": "list-item",
+              "text": "Rates are fully redeemable on food & beverage consumption",
+              "spans": []
+            }
+          ],
+          "showOnVenuePage": false
+        },
+        {
+          "id": "Yv82ERAAAPgZB5xS",
+          "category": "Kids pool",
+          "title": "Shaded kids pool",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "Complimentary sun loungers and towels",
+              "spans": []
+            }
+          ],
+          "showOnVenuePage": false
+        },
+        {
+          "id": "YxrmsBEAAHzJoyML",
+          "category": "Rooftop pool",
+          "title": "Rooftop pool",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "Complimentary sun loungers and towels",
+              "spans": []
+            }
+          ],
+          "showOnVenuePage": false
+        },
+        {
+          "id": "XE_8nhEAACIA_nYT",
+          "category": "Beach",
+          "title": "Beach",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "Complimentary sun loungers and towels",
+              "spans": []
+            }
+          ],
+          "showOnVenuePage": false
+        },
+        {
+          "id": "Za41RRIAACMA22aW",
+          "category": "Hotel",
+          "showOnVenuePage": false
+        }
+      ],
+      "openingHours": {},
+      "accessibleForGuestPass": true,
+      "overviewText": [
+        {
+          "type": "paragraph",
+          "text": "Unwind at Shangri-La Qaryat al Beri, located in the serene Khor Al Maqta. With a huge private beach and sunset views, this is your go-to for laid-back days.\n",
+          "spans": [],
+          "direction": "ltr"
+        }
+      ],
+      "thingsToDo": [
+        {
+          "title": "Free nanny access",
+          "badge": "Free nanny access",
+          "content": [
+            [
+              {
+                "type": "list-item",
+                "text": "Free access for one nanny, per family",
+                "spans": []
+              },
+              {
+                "type": "list-item",
+                "text": "Nannies are not permitted to use the facilities",
+                "spans": []
+              }
+            ]
+          ]
+        },
+        {
+          "title": "Free access for 3 kids",
+          "badge": "3 free kids, aged 6 - 17",
+          "content": [
+            [
+              {
+                "type": "list-item",
+                "text": "Free access for three kids, per family",
+                "spans": []
+              },
+              {
+                "type": "list-item",
+                "text": "Additional children are chargeable",
+                "spans": []
+              }
+            ]
+          ]
+        },
+        {
+          "title": "Pool & beach",
+          "badge": "Free access",
+          "items": [
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/b3844618-8ad9-44b7-9be6-1e69c9d7fb7d_SLAD_Pool-1.jpg?auto=compress,format"
+              },
+              "title": "Pool"
+            },
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/6372522d-d1ef-4695-bb7a-359e98b02516_SLAD_Pool-2.jpg?auto=compress,format"
+              },
+              "title": " Infinity Pool"
+            },
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/9652abe5-5211-4df5-9527-1dc200f703d7_ShangriLa_11.04.2022+%281+of+45%29%402x.jpg?auto=compress,format"
+              },
+              "title": "Rooftop Pool"
+            },
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/f04a159b-2b83-4a55-abe4-6390ae002d74_SLAD_Kids-pool.jpg?auto=compress,format"
+              },
+              "title": " Kids' Pool"
+            },
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/d30b530d-3cee-4036-b08c-4ba5b2e4b711_ShangriLa_11.04.2022+%286+of+45%29%402x.jpg?auto=compress,format"
+              },
+              "title": "Beach"
+            }
+          ]
+        },
+        {
+          "title": "Guest rates",
+          "badge": "Guest rates at AED 250",
+          "content": [
+            [
+              {
+                "type": "list-item",
+                "text": "Monday to Sunday - Adults: AED 250, Kids: AED 100",
+                "spans": []
+              },
+              {
+                "type": "list-item",
+                "text": "Rates are fully redeemable on food & beverage consumption",
+                "spans": []
+              }
+            ]
+          ]
+        },
+        {
+          "title": "Shangri-La Health Club",
+          "subtitle": "06:00 - 22:00",
+          "badge": "Free access to mixed gym facilities"
+        },
+        {
+          "title": "CHI, The Spa",
+          "subtitle": "11:00 - 22:00",
+          "badge": "30% off"
+        },
+        {
+          "title": "Restaurants",
+          "badge": "20% off",
+          "items": [
+            {
+              "title": "Al Hanah Bar",
+              "image": {
+                "url": "https://images.prismic.io/privilee/609d4abe-b01a-40c5-9d9e-fe9bca43387b_SLAD_AL-Hanah.jpg?auto=compress,format"
+              }
+            },
+            {
+              "title": "Bord Eau"
+            },
+            {
+              "title": "Lobby Lounge",
+              "image": {
+                "url": "https://images.prismic.io/privilee/936c98c8-ae77-473c-a91c-6450de33744f_ShangriLa_11.04.2022+%2835+of+45%29%402x.jpg?auto=compress,format"
+              }
+            },
+            {
+              "title": "Pool Bar & Restaurant",
+              "image": {
+                "url": "https://images.prismic.io/privilee/7ba18ab0-1c61-4656-9427-eb922ace0dca_IN_APP_STOCK_IMAGE_BARS.jpg?auto=compress,format"
+              }
+            },
+            {
+              "title": "Sofra Bld",
+              "image": {
+                "url": "https://images.prismic.io/privilee%2Ff99f45ef-4615-4c8f-99ed-9f942e23f8fa_sufra-01.jpg?auto=compress,format"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "hotel",
+      "name": "THE BEACH at Nikki Beach Resort & Spa Dubai ",
+      "city": "Dubai",
+      "type": "hotel",
+      "coordinates": {
+        "lat": 25.24626649678944,
+        "lng": 55.25636117560612
+      },
+      "location": "Pearl Jumeirah",
+      "images": [
+        {
+          "url": "https://privilee-media.imgix.net/privilee/Z1lCRZbqstJ98Shc_01_THEBEACH_nikkibeach.jpg?auto=format,compress"
+        },
+        {
+          "url": "https://privilee-media.imgix.net/privilee/Z1lCQZbqstJ98Sha_02_THEBEACH_nikkibeach.jpg?auto=format,compress"
+        },
+        {
+          "url": "https://privilee-media.imgix.net/privilee/Z1lCQJbqstJ98ShY_03_THEBEACH_nikkibeach.jpg?auto=format,compress"
+        }
+      ],
+      "categories": [
+        {
+          "id": "XE_8nhEAACIA_nYT",
+          "category": "Beach",
+          "showOnVenuePage": false
+        }
+      ],
+      "openingHours": {},
+      "accessibleForGuestPass": true,
+      "overviewText": [
+        {
+          "type": "paragraph",
+          "text": "Discover THE BEACH at Nikki Beach Resort & Spa Dubai, offering stunning sea views, golden sands, and the perfect place to relax.",
+          "spans": [],
+          "direction": "ltr"
+        },
+        {
+          "type": "paragraph",
+          "text": "Members can bring up to three kids per family, making it ideal for a family daycation. Enjoy 20% off dining, whether it’s refreshing drinks at THE BEACH or a taste of Côte d’Azur-inspired cuisine at Café Nikki.\n",
+          "spans": [],
+          "direction": "ltr"
+        }
+      ],
+      "thingsToDo": [
+        {
+          "title": "Pool & beach",
+          "badge": "Free access",
+          "items": [
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/Z1lCQZbqstJ98Sha_02_THEBEACH_nikkibeach.jpg?auto=format,compress"
+              },
+              "title": "THE BEACH"
+            }
+          ]
+        },
+        {
+          "title": "Restaurants",
+          "badge": "20% off",
+          "items": []
+        }
+      ]
+    },
+    {
+      "section": "hotel",
+      "name": "Ula Dubai",
+      "city": "Dubai",
+      "type": "hotel",
+      "coordinates": {
+        "lat": 25.11046177135571,
+        "lng": 55.13704419136048
+      },
+      "location": "The Palm",
+      "images": [
+        {
+          "url": "https://privilee-media.imgix.net/privilee/ebdb07e9-f155-449b-aa95-2ece0814afdc_Ula+DXB7.jpg?auto=compress,format"
+        },
+        {
+          "url": "https://privilee-media.imgix.net/privilee/002bf28c-931a-4b4e-907c-eff411b1fb48_Ula+DXB5.jpg?auto=compress,format"
+        },
+        {
+          "url": "https://privilee-media.imgix.net/privilee/f18fcae3-de8a-4f8e-8290-12283112a18f_Ula+DXB+Beach.jpg?auto=compress,format"
+        }
+      ],
+      "categories": [
+        {
+          "id": "XE_8nhEAACIA_nYT",
+          "category": "Beach",
+          "title": "Beach",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "Complimentary sun loungers and towels",
+              "spans": []
+            }
+          ],
+          "showOnVenuePage": false
+        },
+        {
+          "id": "YzPPkBEAANURiak3",
+          "category": "Venue guest rates",
+          "title": "Guest rates from AED 100",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "Monday to Thursday - Adults: AED 100\nAED 50 is redeemable on food & beverages.",
+              "spans": [
+                {
+                  "start": 37,
+                  "end": 78,
+                  "type": "em"
+                }
+              ],
+              "direction": "ltr"
+            },
+            {
+              "type": "list-item",
+              "text": "Friday to Sunday - Adults: AED 200\nAED 100 is redeemable on food & beverages",
+              "spans": [
+                {
+                  "start": 35,
+                  "end": 76,
+                  "type": "em"
+                }
+              ],
+              "direction": "ltr"
+            }
+          ],
+          "showOnVenuePage": false
+        },
+        {
+          "id": "Za41ahIAACUA22bN",
+          "category": "Beach club",
+          "showOnVenuePage": false
+        }
+      ],
+      "openingHours": {},
+      "accessibleForGuestPass": true,
+      "overviewText": [
+        {
+          "type": "paragraph",
+          "text": "This stunning Mediterranean-inspired beach club is located on Palm Jumeirah at Dukes, The Palm. Privilee Members can look forward to gorgeous views of the Dubai Marina skyline, a buzzing day-to-night vibe, alongside dreamy dining and drinks - with a 20% discount!",
+          "spans": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "spans": []
+        }
+      ],
+      "thingsToDo": [
+        {
+          "title": "Pool & beach",
+          "badge": "Free access",
+          "items": [
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/3d91bcd8-8ba0-4f1c-a537-87494fbbaf1c_IN_APP_STOCK_IMAGE_POOL.jpg?auto=compress,format"
+              },
+              "title": "Infinity Pool"
+            },
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/197eb8d6-4785-4790-9d8d-cd441f212184_ULA+DXB+Beach.jpg?auto=compress,format"
+              },
+              "title": "Ula Beach"
+            }
+          ]
+        },
+        {
+          "title": "Guest rates",
+          "badge": "Guest rates from AED 100",
+          "content": [
+            [
+              {
+                "type": "list-item",
+                "text": "Monday to Thursday - Adults: AED 100\nAED 50 is redeemable on food & beverages.",
+                "spans": [
+                  {
+                    "start": 37,
+                    "end": 78,
+                    "type": "em"
+                  }
+                ],
+                "direction": "ltr"
+              },
+              {
+                "type": "list-item",
+                "text": "Friday to Sunday - Adults: AED 200\nAED 100 is redeemable on food & beverages",
+                "spans": [
+                  {
+                    "start": 35,
+                    "end": 76,
+                    "type": "em"
+                  }
+                ],
+                "direction": "ltr"
+              }
+            ]
+          ]
+        },
+        {
+          "title": "Restaurants",
+          "badge": "20% off",
+          "items": [
+            {
+              "title": "Ula Dubai Restaurant",
+              "image": {
+                "url": "https://images.prismic.io/privilee/002bf28c-931a-4b4e-907c-eff411b1fb48_Ula+DXB5.jpg?auto=compress,format"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "hotel",
+      "name": "VOGO Abu Dhabi Golf Resort & Spa",
+      "city": "Abu Dhabi",
+      "type": "hotel",
+      "coordinates": {
+        "lat": 24.419336985496333,
+        "lng": 54.528616556790524
+      },
+      "location": "Sas Al Nakhl",
+      "images": [
+        {
+          "url": "https://privilee-media.imgix.net/privilee/ZerPXXUurf2G3NRb_WestinAD-07.10.2018-1of17--1.png?auto=format,compress"
+        },
+        {
+          "url": "https://privilee-media.imgix.net/privilee/ZerPgnUurf2G3NRj_WestinAD-07.10.2018-1of17-.png?auto=format,compress"
+        },
+        {
+          "url": "https://privilee-media.imgix.net/privilee/d9463231-8520-41b9-b435-c37eb06193f4_VOGO+-+07.10-8.png?auto=format,compress"
+        }
+      ],
+      "categories": [
+        {
+          "id": "XE_9TBEAACMA_nkt",
+          "category": "Free nanny access",
+          "showOnVenuePage": false
+        },
+        {
+          "id": "YvODwhAAAP0n04G8",
+          "category": "Free access for 3 kids",
+          "showOnVenuePage": false
+        }
+      ],
+      "openingHours": {},
+      "accessibleForGuestPass": true,
+      "overviewText": [
+        {
+          "type": "paragraph",
+          "text": "Get complimentary access to VOGO Abu Dhabi Golf Resort & Spa, exclusively with Privilee! From peaceful pool days to wellness activities in the lap pool, gym, and recovery facilities, the resort appeals to all interests.",
+          "spans": [],
+          "direction": "ltr"
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "spans": [],
+          "direction": "ltr"
+        }
+      ],
+      "thingsToDo": [
+        {
+          "title": "Pool & beach",
+          "badge": "Free access",
+          "items": [
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/ZerPXXUurf2G3NRb_WestinAD-07.10.2018-1of17--1.png?auto=format,compress"
+              },
+              "title": "Main Pool"
+            },
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/ZerPgnUurf2G3NRj_WestinAD-07.10.2018-1of17-.png?auto=format,compress"
+              },
+              "title": "Lap Pool"
+            },
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/Zer1AnUurf2G3Nde_WestinAD-07.10.2018-1of18-.png?auto=format,compress"
+              },
+              "title": "Kids Pool"
+            }
+          ]
+        },
+        {
+          "title": "VOGO Gym",
+          "subtitle": "06:00 - 21:00"
+        },
+        {
+          "title": "The Spa by VOGO",
+          "subtitle": "10:00 - 22:00",
+          "badge": "25% off"
+        },
+        {
+          "title": "Restaurants",
+          "badge": "25% off",
+          "items": [
+            {
+              "title": "Fairways",
+              "image": {
+                "url": "https://images.prismic.io/privilee/f3b619b7-20a6-42a4-b30b-8cbc9d77fdac_VOGO_Fairways_02.png?auto=format,compress"
+              }
+            },
+            {
+              "title": "Sacci",
+              "image": {
+                "url": "https://images.prismic.io/privilee/099a0915-d763-400e-8824-5eedf8a7dcd5_VOGO_Sacci_07.png?auto=format,compress"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "hotel",
+      "name": "W Abu Dhabi – Yas Island ",
+      "city": "Abu Dhabi",
+      "type": "hotel",
+      "coordinates": {
+        "lat": 24.46738503350967,
+        "lng": 54.60501730442048
+      },
+      "location": "Yas Island",
+      "images": [
+        {
+          "url": "https://privilee-media.imgix.net/privilee/af27959d-421f-45d1-b281-0345846e01d0_W-AD_pool.jpg?auto=compress,format"
+        },
+        {
+          "url": "https://privilee-media.imgix.net/privilee/36d63360-d21f-4062-adf5-0fc62efc107b_exterior_2_prismic.jpg?auto=compress,format"
+        },
+        {
+          "url": "https://privilee-media.imgix.net/privilee/ce05910c-d001-4421-b457-a0b0a1cefa9e_W-AD.jpg?auto=compress,format"
+        }
+      ],
+      "categories": [
+        {
+          "id": "XE_8uxEAACEA_nab",
+          "category": "Adults-only pool",
+          "title": "WET Deck adults-only pool",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "Complimentary sun loungers and towels  ",
+              "spans": [],
+              "direction": "ltr"
+            }
+          ],
+          "showOnVenuePage": false
+        },
+        {
+          "id": "YzPPkBEAANURiak3",
+          "category": "Venue guest rates",
+          "title": "Guest rates at AED 100",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "Monday to Sunday - Adults: AED 100, Kids: AED 100",
+              "spans": []
+            }
+          ],
+          "showOnVenuePage": false
+        },
+        {
+          "id": "Za41RRIAACMA22aW",
+          "category": "Hotel",
+          "showOnVenuePage": false
+        }
+      ],
+      "openingHours": {},
+      "accessibleForGuestPass": true,
+      "overviewText": [
+        {
+          "type": "paragraph",
+          "text": "With an exclusive location between a Grand Prix racetrack and the marina, W Abu Dhabi – Yas Island is an exhilarating daycation getaway. With access to the adults-only WET Deck pool, full-fledged fitness centre, spa, and dining spots like no other, you’ll be in for a real treat, ",
+          "spans": []
+        }
+      ],
+      "thingsToDo": [
+        {
+          "title": "Pool & beach",
+          "badge": "Free access",
+          "items": [
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/e98db75c-881b-46d1-9324-0616fea89961_pool_1.jpg?auto=compress,format"
+              },
+              "title": "WET Deck (adults only)"
+            },
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/130d3292-f215-4f5c-9603-98d4e6527dd0_prismic.jpg?auto=compress,format"
+              },
+              "title": "Sun Deck"
+            }
+          ]
+        },
+        {
+          "title": "Guest rates",
+          "badge": "Guest rates at AED 100",
+          "content": [
+            [
+              {
+                "type": "list-item",
+                "text": "Monday to Sunday - Adults: AED 100, Kids: AED 100",
+                "spans": []
+              }
+            ]
+          ]
+        },
+        {
+          "title": "Fit Gym at W Abu Dhabi",
+          "subtitle": "6:00 - 22:00",
+          "badge": "Free access to mixed gym facilities"
+        },
+        {
+          "title": "Away Spa",
+          "subtitle": "15:00 - 23:00",
+          "badge": "25% off"
+        },
+        {
+          "title": "Restaurants",
+          "badge": "25% off",
+          "items": [
+            {
+              "title": "Garage",
+              "image": {
+                "url": "https://images.prismic.io/privilee/630d854f-fbc5-412b-b226-720aad9adba1_W-Garage.jpg?auto=compress,format"
+              }
+            },
+            {
+              "title": "Roastery",
+              "image": {
+                "url": "https://images.prismic.io/privilee/b16e906e-1299-4913-9faa-7ecc82a41dd3_Roastery_prismic.jpg?auto=compress,format"
+              }
+            },
+            {
+              "title": "W Lounge",
+              "image": {
+                "url": "https://images.prismic.io/privilee/e4ceb94b-6f18-4bdd-89ce-9def6179c936_W-lounge1.jpg?auto=compress,format"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "hotel",
+      "name": "Yas Beach",
+      "city": "Abu Dhabi",
+      "type": "hotel",
+      "coordinates": {
+        "lat": 24.462017980052,
+        "lng": 54.59225494145024
+      },
+      "location": "Yas Island",
+      "images": [
+        {
+          "url": "https://privilee-media.imgix.net/privilee/a23aa786-aa4a-4001-94ee-0ac1d8d25cc2_Yas+Beach10.jpg?auto=compress,format"
+        },
+        {
+          "url": "https://privilee-media.imgix.net/privilee/39a4a884-eb0c-47ec-a3b0-1d71aaa77225_Yas+Beach22.jpg?auto=compress,format"
+        },
+        {
+          "url": "https://privilee-media.imgix.net/privilee/7a5468c0-3848-462c-b172-e5f2c06f08d9_Yas+Beach37.jpg?auto=compress,format"
+        }
+      ],
+      "categories": [
+        {
+          "id": "XE_9TBEAACMA_nkt",
+          "category": "Free nanny access",
+          "showOnVenuePage": false
+        },
+        {
+          "id": "YvODwhAAAP0n04G8",
+          "category": "Free access for 3 kids",
+          "showOnVenuePage": false
+        },
+        {
+          "id": "Za41ahIAACUA22bN",
+          "category": "Beach club",
+          "showOnVenuePage": false
+        },
+        {
+          "id": "XE_8nhEAACIA_nYT",
+          "category": "Beach",
+          "showOnVenuePage": false
+        },
+        {
+          "id": "Yv82ERAAAPgZB5xS",
+          "category": "Kids pool",
+          "showOnVenuePage": false
+        }
+      ],
+      "openingHours": {},
+      "accessibleForGuestPass": true,
+      "overviewText": [
+        {
+          "type": "paragraph",
+          "text": "Daycay at Abu Dhabi’s best-kept secret, the only beach club on Yas Island! With white sands, crystal clear waters and natural mangrove surroundings, this picture-perfect beach club is the ultimate destination to soak up the sunshine, spend time with loved ones and forget where you are.",
+          "spans": []
+        }
+      ],
+      "thingsToDo": [
+        {
+          "title": "Pool & beach",
+          "badge": "Free access",
+          "items": [
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/39a4a884-eb0c-47ec-a3b0-1d71aaa77225_Yas+Beach22.jpg?auto=compress,format"
+              },
+              "title": "Infinity pool"
+            },
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/7a5468c0-3848-462c-b172-e5f2c06f08d9_Yas+Beach37.jpg?auto=compress,format"
+              },
+              "title": "Beach"
+            },
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/d3c70e74-4333-47f6-a4e6-2b2879c7f0ce_Yas+Beach_18.jpg?auto=compress,format"
+              },
+              "title": "Shaded kids pool"
+            }
+          ]
+        },
+        {
+          "title": "Restaurants",
+          "badge": "20% off",
+          "items": [
+            {
+              "title": "Yas Beach Dining",
+              "image": {
+                "url": "https://images.prismic.io/privilee/cbd5f2c3-a43b-4a98-82b1-cca8949d8ded_Yas+Beach_12.png?auto=compress,format"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "hotel",
+      "name": "Zabeel House The Greens",
+      "city": "Dubai",
+      "type": "hotel",
+      "coordinates": {
+        "lat": 25.096772756125098,
+        "lng": 55.16950428485871
+      },
+      "location": "The Greens",
+      "images": [
+        {
+          "url": "https://privilee-media.imgix.net/privilee/965d7023c5dfdb50c20640dd4ac78ca108cdc3fd_pool3.jpg?auto=compress,format"
+        },
+        {
+          "url": "https://privilee-media.imgix.net/privilee/fe2378f22873956fe5ffcbb9404fc7ea10adfc4d_pool1.jpg?auto=compress,format"
+        },
+        {
+          "url": "https://privilee-media.imgix.net/privilee/13a8c7f300942854d735618543b944e29aeb8168_pool2.jpg?auto=compress,format"
+        }
+      ],
+      "categories": [
+        {
+          "id": "YvORghAAAP0n08Ns",
+          "category": "Free access for 2 kids",
+          "title": "2 free kids, aged 5 and below",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "Complimentary access for two kids up to 5 years old, per family",
+              "spans": [],
+              "direction": "ltr"
+            },
+            {
+              "type": "list-item",
+              "text": "Additional children are chargeable",
+              "spans": [],
+              "direction": "ltr"
+            }
+          ],
+          "showOnVenuePage": true
+        },
+        {
+          "id": "YxrmsBEAAHzJoyML",
+          "category": "Rooftop pool",
+          "title": "Rooftop pool",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "Complimentary sun loungers and towels",
+              "spans": []
+            }
+          ],
+          "showOnVenuePage": false
+        },
+        {
+          "id": "YzPPkBEAANURiak3",
+          "category": "Venue guest rates",
+          "title": "Guest rates at AED 150",
+          "detail": [
+            {
+              "type": "list-item",
+              "text": "AED 75 is redeemable on food & beverages at Lah Lah",
+              "spans": []
+            }
+          ],
+          "showOnVenuePage": false
+        },
+        {
+          "id": "Za41RRIAACMA22aW",
+          "category": "Hotel",
+          "showOnVenuePage": false
+        }
+      ],
+      "openingHours": {},
+      "accessibleForGuestPass": true,
+      "overviewText": [
+        {
+          "type": "paragraph",
+          "text": "This cooler than cool retreat is one of a kind. The modern outdoor terrace is a great place to socialise and features a pool, bar and giant screen for movie nights. The fitness facilities are outstanding, with 56 exercise stations and an outdoor sprint track. Post-workout, refuel with a healthy breakfast at Social Company, where furry friends are more than welcome.",
+          "spans": []
+        },
+        {
+          "type": "paragraph",
+          "text": "",
+          "spans": []
+        }
+      ],
+      "thingsToDo": [
+        {
+          "title": "Free access for 2 kids",
+          "badge": "2 free kids, aged 5 and below",
+          "content": [
+            [
+              {
+                "type": "list-item",
+                "text": "Complimentary access for two kids up to 5 years old, per family",
+                "spans": [],
+                "direction": "ltr"
+              },
+              {
+                "type": "list-item",
+                "text": "Additional children are chargeable",
+                "spans": [],
+                "direction": "ltr"
+              }
+            ]
+          ]
+        },
+        {
+          "title": "Pool & beach",
+          "badge": "Free access",
+          "items": [
+            {
+              "image": {
+                "url": "https://images.prismic.io/privilee/965d7023c5dfdb50c20640dd4ac78ca108cdc3fd_pool3.jpg?auto=compress,format"
+              },
+              "title": "Rooftop Pool"
+            }
+          ]
+        },
+        {
+          "title": "Guest rates",
+          "badge": "Guest rates at AED 150",
+          "content": [
+            [
+              {
+                "type": "list-item",
+                "text": "AED 75 is redeemable on food & beverages at Lah Lah",
+                "spans": []
+              }
+            ]
+          ]
+        },
+        {
+          "title": "Native Club Gym",
+          "subtitle": "6:00 - 21:30",
+          "badge": "Free access"
+        },
+        {
+          "title": "Native Club Spa",
+          "subtitle": "11:00 - 21:00",
+          "badge": "20% off"
+        },
+        {
+          "title": "Restaurants",
+          "badge": "20% off",
+          "items": [
+            {
+              "title": "Lah Lah",
+              "image": {
+                "url": "https://images.prismic.io/privilee/9fd5f27098e1d398c38a9a81a058ddf3457e342f_zabeel-lahlah.jpg?auto=compress,format"
+              }
+            },
+            {
+              "title": "Social Company",
+              "image": {
+                "url": "https://images.prismic.io/privilee/78b1bac5550f41f73d8dde14c86243c5de18f03f_zabeel_social_house.jpg?auto=compress,format"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "cities": [
+    "Dubai",
+    "Abu Dhabi",
+    "Ras Al Khaimah",
+    "Ajman",
+    "Fujairah",
+    "Sharjah"
+  ]
+}
