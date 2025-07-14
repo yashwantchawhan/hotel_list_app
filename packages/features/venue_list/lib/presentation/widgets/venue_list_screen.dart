@@ -1,4 +1,6 @@
 
+import 'package:datasource_core/datasource_core.dart';
+import 'package:datasource_core/models/venue_item.dart';
 import 'package:design_common/design_common.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -27,25 +29,15 @@ class _VenueListScreenState extends State<VenueListScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: Colors.grey[100],
-      body: CustomScrollView(
-        physics: const BouncingScrollPhysics(),
-        slivers: [
-          _buildHeader(),
-          _buildChips(),
-          _buildList(),
-        ],
+    return BlocConsumer<VenueBloc, VenueState>(
+      bloc: _bloc,
+      buildWhen: _buildWhen,
+      listenWhen: _listenWhen,
+      listener: _onStateChangeListener,
+      builder: (context, state) => _onStateChangeBuilder(
+        context,
+        state,
       ),
-      floatingActionButton: FilterAndMapButton(
-        onFilterTap: () {
-          _bloc.add(const FilterViewEvent());
-        },
-        onMapTap: () {
-          _bloc.add(const MapViewEvent());
-        },
-      ),
-      floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
     );
   }
 
@@ -83,40 +75,26 @@ class _VenueListScreenState extends State<VenueListScreen> {
     );
   }
 
-  Widget _buildChips() {
+
+  Widget _buildChips(List<FilterItem> filters) {
     return SliverToBoxAdapter(
       child: SizedBox(
         height: 50,
-        child: ListView(
+        child: ListView.separated(
           scrollDirection: Axis.horizontal,
           padding: const EdgeInsets.all(8),
-          children: const [
-            SelectableChip(label: 'Pool'),
-            SizedBox(width: 20),
-            SelectableChip(label: 'Gym'),
-            SizedBox(width: 20),
-            SelectableChip(label: 'Beach'),
-            SizedBox(width: 20),
-            SelectableChip(label: 'Family'),
-          ],
+          itemCount: filters.length,
+          separatorBuilder: (_, __) => const SizedBox(width: 12),
+          itemBuilder: (context, index) {
+            final category = filters[index];
+            return SelectableChip(label: category.name);
+          },
         ),
       ),
     );
   }
 
-  Widget _buildList() {
 
-    return BlocConsumer<VenueBloc, VenueState>(
-      bloc: _bloc,
-      buildWhen: _buildWhen,
-      listenWhen: _listenWhen,
-      listener: _onStateChangeListener,
-      builder: (context, state) => _onStateChangeBuilder(
-        context,
-        state,
-      ),
-    );
-  }
 
   void _onStateChangeListener(BuildContext context, VenueState state) {
     if (state is VenueMapViewState) {
@@ -128,7 +106,7 @@ class _VenueListScreenState extends State<VenueListScreen> {
           ),
         ),
       );
-    } else if(state is FilterViewEvent) {
+    } else if(state is FilterViewState) {
       showFilterBottomSheet(context);
     } else if(state is VenueDetailState) {
        Navigator.of(context).push(
@@ -153,39 +131,78 @@ class _VenueListScreenState extends State<VenueListScreen> {
       true;
 
   _onStateChangeBuilder(BuildContext context, VenueState state) {
+
     if (state is VenueLoadedState) {
       final venues = state.venueDataDisplayModel.venues;
-      return SliverList(
-        delegate: SliverChildBuilderDelegate(
-              (context, index) {
-            final venue = venues[index];
-            return Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
-              child: VenueCard(
-                configuration: VenueCardConfiguration(
-                  imageUrls: venue.imageUrls,
-                  title: venue.name,
-                  subtitle: venue.location,
-                ),
-                onCardClick: () {
-                  _bloc.add(VenueDetailsEvent(name: venue.name));
-                },
-              ),
-            );
-          },
-          childCount: venues.length,
+
+      return Scaffold(
+        backgroundColor: Colors.grey[100],
+        body: CustomScrollView(
+          physics: const BouncingScrollPhysics(),
+          slivers: [
+            _buildHeader(),
+            _buildChips(state.venueDataDisplayModel.filters),
+             buildSliverList(venues),
+          ],
         ),
+        floatingActionButton: FilterAndMapButton(
+          onFilterTap: () {
+            _bloc.add(const FilterViewEvent());
+          },
+          onMapTap: () {
+            _bloc.add(const MapViewEvent());
+          },
+        ),
+        floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
       );
     }
     else if (state is VenueErrorState) {
-      return const SliverFillRemaining(
-        child: Center(child: Text("Error loading venues")),
-      );
-    } else {
-      return const SliverFillRemaining(
-        child: Center(child: CircularProgressIndicator()),
-      );
+      return
+        const Center(
+          child: Padding(
+            padding: EdgeInsets.symmetric(vertical: 32),
+            child: Text(
+              "Error loading venues",
+              style: TextStyle(fontSize: 16, color: Colors.red),
+            ),
+          ),
+        );
+
     }
+    else {
+      return
+       const Center(
+          child: Padding(
+            padding: EdgeInsets.symmetric(vertical: 32),
+            child: CircularProgressIndicator(),
+          ),
+        );
+
+    }
+  }
+
+  SliverList buildSliverList(List<VenueItem> venues) {
+    return SliverList(
+      delegate: SliverChildBuilderDelegate(
+            (context, index) {
+          final venue = venues[index];
+          return Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+            child: VenueCard(
+              configuration: VenueCardConfiguration(
+                imageUrls: venue.imageUrls,
+                title: venue.name,
+                subtitle: venue.location,
+              ),
+              onCardClick: () {
+                _bloc.add(VenueDetailsEvent(name: venue.name));
+              },
+            ),
+          );
+        },
+        childCount: venues.length,
+      ),
+    );
   }
 
   void _onSearchQueryChanged(String query) {
