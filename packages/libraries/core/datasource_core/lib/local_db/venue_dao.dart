@@ -117,4 +117,71 @@ class VenueDao {
     final db = await AppDatabase.database;
     await db.delete('venues');
   }
+
+  Future<VenueItem?> getVenueByName(String name) async {
+    final db = await AppDatabase.database;
+
+    final maps = await db.query(
+      'venues',
+      where: 'name = ?',
+      whereArgs: [name],
+      limit: 1,
+    );
+
+    if (maps.isNotEmpty) {
+      return mapToVenueItem(maps.first);
+    } else {
+      return null;
+    }
+  }
+
+  VenueItem mapToVenueItem(Map<String, Object?> map) {
+    final openingHoursJson = map['openingHours_json'] as String?;
+    final overviewTextJson = map['overviewText_json'] as String?;
+    final imageUrlsJson = map['imageUrls'] as String?;
+    final categoriesJson = map['categories_json'] as String?;
+    final thingsToDoJson = map['thingsToDo_json'] as String?;
+
+    return VenueItem(
+      id: map['id'] as int,
+      section: map['section'] as String,
+      name: map['name'] as String,
+      city: map['city'] as String,
+      type: map['type'] as String,
+      location: map['location'] as String,
+      lat: map['lat'] as double,
+      lng: map['lng'] as double,
+      accessibleForGuestPass: (map['accessibleForGuestPass'] as int) == 1,
+      imageUrls: (imageUrlsJson != null && imageUrlsJson.isNotEmpty)
+          ? List<String>.from(jsonDecode(imageUrlsJson))
+          : [],
+      categories: (categoriesJson != null && categoriesJson.isNotEmpty)
+          ? (jsonDecode(categoriesJson) as List)
+          .map((e) => Category(
+        id: e['id'],
+        category: e['category'],
+        title: e['title'],
+        details: List<String>.from(e['details']),
+        showOnVenuePage: e['showOnVenuePage'],
+      ))
+          .toList()
+          : [],
+      openingHours: (openingHoursJson != null && openingHoursJson.isNotEmpty)
+          ? Map<String, dynamic>.from(jsonDecode(openingHoursJson))
+          : {},
+      overviewText: (overviewTextJson != null && overviewTextJson.isNotEmpty)
+          ? List<String>.from(jsonDecode(overviewTextJson))
+          : [],
+      thingsToDo: (thingsToDoJson != null && thingsToDoJson.isNotEmpty)
+          ? (jsonDecode(thingsToDoJson) as List)
+          .map((e) => ThingToDo(
+        title: e['title'],
+        badge: e['badge'],
+        subtitle: e['subtitle'],
+      ))
+          .toList()
+          : [],
+    );
+  }
+
 }

@@ -68,7 +68,7 @@ class _VenueListScreenState extends State<VenueListScreen> {
             ],
           ),
           child:  TextField(
-            decoration: InputDecoration(
+            decoration: const InputDecoration(
               hintText: 'Search...',
               prefixIcon: Icon(Icons.search),
               border: InputBorder.none,
@@ -130,6 +130,12 @@ class _VenueListScreenState extends State<VenueListScreen> {
       );
     } else if(state is FilterViewEvent) {
       showFilterBottomSheet(context);
+    } else if(state is VenueDetailState) {
+       Navigator.of(context).push(
+        MaterialPageRoute(
+          builder: (context) => VenueDetailsScreen(venue: state.venueItem),
+         ),
+      );
     }
   }
 
@@ -148,7 +154,7 @@ class _VenueListScreenState extends State<VenueListScreen> {
 
   _onStateChangeBuilder(BuildContext context, VenueState state) {
     if (state is VenueLoadedState) {
-      final venues = state.venueItemList;
+      final venues = state.venueDataDisplayModel.venues;
       return SliverList(
         delegate: SliverChildBuilderDelegate(
               (context, index) {
@@ -161,12 +167,8 @@ class _VenueListScreenState extends State<VenueListScreen> {
                   title: venue.name,
                   subtitle: venue.location,
                 ),
-                onCardClick: (){
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (context) => VenueDetailsScreen(venue: venue),
-                    ),
-                  );
+                onCardClick: () {
+                  _bloc.add(VenueDetailsEvent(name: venue.name));
                 },
               ),
             );
@@ -195,6 +197,8 @@ class _VenueListScreenState extends State<VenueListScreen> {
       }
   }
 }
+
+
 
 
 

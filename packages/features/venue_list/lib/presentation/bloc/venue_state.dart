@@ -1,4 +1,4 @@
-import 'package:datasource_core/models/VenueData.dart';
+import 'package:datasource_core/datasource_core.dart';
 import 'package:datasource_core/models/venue_item.dart';
 import 'package:equatable/equatable.dart';
 
@@ -19,15 +19,27 @@ final class VenueErrorState extends Equatable implements VenueState {
 }
 
 final class VenueLoadedState extends Equatable implements VenueState {
-  final List<VenueItem> venueItemList;
+  final VenueDataDisplayModel venueDataDisplayModel;
 
   const VenueLoadedState({
-    required this.venueItemList,
+    required this.venueDataDisplayModel,
   });
 
   @override
-  List<Object?> get props => [venueItemList];
+  List<Object?> get props => [venueDataDisplayModel];
 }
+
+final class VenueDetailState extends Equatable implements VenueState {
+  final VenueDetailsDisplayModel venueItem;
+
+  const VenueDetailState({
+    required this.venueItem,
+  });
+
+  @override
+  List<Object?> get props => [venueItem];
+}
+
 
 final class VenueMapViewState extends Equatable implements VenueState {
   final List<VenueItem> venueItemList;
