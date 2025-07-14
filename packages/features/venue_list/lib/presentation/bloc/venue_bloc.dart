@@ -2,14 +2,20 @@ import 'dart:async';
 
 import 'package:datasource_core/datasource_core.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:venue_list/domain/venue_data_model_mapper.dart';
+import 'package:venue_list/domain/venue_details_model_mapper.dart';
 import 'package:venue_list/presentation/bloc/venue_event.dart';
 import 'package:venue_list/presentation/bloc/venue_state.dart';
 
 class VenueBloc extends Bloc<VenueEvent, VenueState> {
   final VenueRepository venueRepository;
+  final VenueDetailsModelMapper venueDetailsModelMapper;
+  final VenueDataModelMapper venueDataModelMapper;
 
   VenueBloc(
     this.venueRepository,
+    this.venueDetailsModelMapper,
+    this.venueDataModelMapper,
   ) : super(VenueLoadingState()) {
     on<FetchVenue>(_fetchVenueList);
     on<MapViewEvent>(_fetchVenueLocationList);
@@ -24,7 +30,8 @@ class VenueBloc extends Bloc<VenueEvent, VenueState> {
   ) async {
     var venues = await venueRepository.getVenues();
     final filters = await venueRepository.getFiltersFromAssets();
-    var venueDataDisplay = VenueDataDisplayModel(venues: venues, filters: filters ?? []);
+    var venueDataDisplay =
+        VenueDataDisplayModel(venues: venues, filters: filters ?? []);
     emit(VenueLoadedState(venueDataDisplayModel: venueDataDisplay));
   }
 
@@ -45,7 +52,7 @@ class VenueBloc extends Bloc<VenueEvent, VenueState> {
     try {
       final venues = await venueRepository.searchVenues(event.query);
       final filters = await venueRepository.getFiltersFromAssets();
-      var venueDataDisplay = VenueDataDisplayModel(venues: venues, filters: filters ?? []);
+      final venueDataDisplay = venueDataModelMapper.map(venues, filters!);
       emit(VenueLoadedState(venueDataDisplayModel: venueDataDisplay));
     } catch (e) {
       emit(const VenueErrorState());
@@ -56,28 +63,12 @@ class VenueBloc extends Bloc<VenueEvent, VenueState> {
       VenueDetailsEvent event, Emitter<VenueState> emit) async {
     try {
       final venue = await venueRepository.getVenueByName(event.name);
-
-      final venueDisplay = VenueDetailsDisplayModel(
-        name: venue!.name,
-        location: "${venue.location}, ${venue.city}",
-        openingHours: "09:00 - 20:00", // or from your DB
-        overview: venue.overviewText.join(" "),
-        imageUrls: venue.imageUrls,
-        amenities: [
-          ...venue.categories.map((c) => AmenityItem(
-            title: c.title ?? "",
-            subtitle: c.details.join(", "),
-            note: c.showOnVenuePage ? "Free access" : null,
-          )),
-          ...venue.thingsToDo.map((t) => AmenityItem(
-            title: t.title,
-            subtitle: t.subtitle,
-            note: t.badge,
-          )),
-        ],
-      );
-
+      if (venue != null) {
+        final venueDisplay = venueDetailsModelMapper.map(venue);
         emit(VenueDetailState(venueItem: venueDisplay));
+      } else {
+        emit(const VenueErrorState());
+      }
     } catch (e) {
       emit(const VenueErrorState());
     }
