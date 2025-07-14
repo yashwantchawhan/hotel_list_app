@@ -37,7 +37,7 @@ class _VenueListScreenState extends State<VenueListScreen> {
       ),
       floatingActionButton: FilterAndMapButton(
         onFilterTap: () {
-          showFilterBottomSheet(context);
+          _bloc.add(const FilterViewEvent());
         },
         onMapTap: () {
           _bloc.add(const MapViewEvent());
@@ -123,6 +123,8 @@ class _VenueListScreenState extends State<VenueListScreen> {
           ),
         ),
       );
+    } else if(state is FilterViewEvent) {
+      showFilterBottomSheet(context);
     }
   }
 

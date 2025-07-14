@@ -18,7 +18,6 @@ class VenueRepository {
   /// Fetch cached venues & start background refresh
   Future<List<VenueItem>> getVenues() async {
     final cachedVenues = await _venueDao.getAllVenues();
-
     if (cachedVenues.isEmpty) {
       await _refreshFromAssets();
       final freshVenues = await _venueDao.getAllVenues();
@@ -32,6 +31,7 @@ class VenueRepository {
       return cachedVenues;
     }
   }
+
 
   /// Background refresh
   Future<void> _refreshFromAssets() async {

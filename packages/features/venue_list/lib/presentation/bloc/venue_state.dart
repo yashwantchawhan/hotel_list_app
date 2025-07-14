@@ -39,3 +39,11 @@ final class VenueMapViewState extends Equatable implements VenueState {
   @override
   List<Object?> get props => [venueItemList];
 }
+
+final class FilterViewState extends Equatable implements VenueState {
+  const FilterViewState();
+
+  @override
+  List<Object?> get props => [];
+}
+

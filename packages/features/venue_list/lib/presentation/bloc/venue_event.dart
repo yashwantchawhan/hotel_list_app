@@ -22,3 +22,10 @@ final class MapViewEvent extends VenueEvent {
   @override
   List<Object?> get props => [];
 }
+
+final class FilterViewEvent extends VenueEvent {
+  const FilterViewEvent();
+  @override
+  List<Object?> get props => [];
+}
+
