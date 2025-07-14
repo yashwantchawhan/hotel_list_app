@@ -13,10 +13,8 @@ class VenueRepository {
   final StreamController<List<VenueItem>> _venueController =
   StreamController.broadcast();
 
-  /// Stream of venues from DB
   Stream<List<VenueItem>> get venueStream => _venueController.stream;
 
-  /// Fetch cached venues & start background refresh
   Future<List<VenueItem>> getVenues() async {
     final cachedVenues = await _venueDao.getAllVenues();
     if (cachedVenues.isEmpty) {
@@ -48,7 +46,6 @@ class VenueRepository {
   }
 
 
-  /// Background refresh
   Future<void> _refreshFromAssets() async {
     try {
       final jsonString = await rootBundle.loadString(_localDataPath);
@@ -88,7 +85,6 @@ class VenueRepository {
   }
 
 
-  /// Search venues by keyword in name, city, type or location
   Future<List<VenueItem>> searchVenues(String query) async {
     final allVenues = await _venueDao.getAllVenues();
 

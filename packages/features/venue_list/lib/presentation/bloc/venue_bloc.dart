@@ -55,7 +55,7 @@ class VenueBloc extends Bloc<VenueEvent, VenueState> {
       final venueDataDisplay = venueDataModelMapper.map(venues, filters!);
       emit(VenueLoadedState(venueDataDisplayModel: venueDataDisplay));
     } catch (e) {
-      emit(const VenueErrorState());
+      emit(const VenueErrorState(errorMessage: "Search failed, please use right word to search"));
     }
   }
 
@@ -67,10 +67,10 @@ class VenueBloc extends Bloc<VenueEvent, VenueState> {
         final venueDisplay = venueDetailsModelMapper.map(venue);
         emit(VenueDetailState(venueItem: venueDisplay));
       } else {
-        emit(const VenueErrorState());
+        emit(const VenueErrorState(errorMessage: "Failed to load details screen"));
       }
     } catch (e) {
-      emit(const VenueErrorState());
+      emit(const VenueErrorState(errorMessage: "Failed to load details screen"));
     }
   }
 }

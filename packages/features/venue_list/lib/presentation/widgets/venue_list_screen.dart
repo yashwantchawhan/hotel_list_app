@@ -158,12 +158,12 @@ class _VenueListScreenState extends State<VenueListScreen> {
     }
     else if (state is VenueErrorState) {
       return
-        const Center(
+        Center(
           child: Padding(
-            padding: EdgeInsets.symmetric(vertical: 32),
+            padding: const EdgeInsets.symmetric(vertical: 32),
             child: Text(
-              "Error loading venues",
-              style: TextStyle(fontSize: 16, color: Colors.red),
+              state.errorMessage,
+              style: const TextStyle(fontSize: 16, color: Colors.red),
             ),
           ),
         );

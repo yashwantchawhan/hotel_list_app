@@ -12,7 +12,8 @@ final class VenueLoadingState extends Equatable implements VenueState {
 }
 
 final class VenueErrorState extends Equatable implements VenueState {
-  const VenueErrorState();
+  final String errorMessage;
+  const VenueErrorState({required this.errorMessage});
 
   @override
   List<Object?> get props => [];
