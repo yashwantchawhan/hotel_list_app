@@ -24,6 +24,8 @@ dependencies:
       path: ../../libraries/core/datasource_core
   venue_map:
         path: ../../features/venue_map
+  venue_details:
+        path: ../../features/venue_details
 dev_dependencies:
   flutter_test:
     sdk: flutter

@@ -2,6 +2,7 @@
 import 'package:design_common/design_common.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:venue_details/presentation/widgets/venue_details_screen.dart';
 import 'package:venue_list/presentation/bloc/venue_bloc.dart';
 import 'package:venue_list/presentation/bloc/venue_event.dart';
 import 'package:venue_list/presentation/bloc/venue_state.dart';
@@ -160,6 +161,13 @@ class _VenueListScreenState extends State<VenueListScreen> {
                   title: venue.name,
                   subtitle: venue.location,
                 ),
+                onCardClick: (){
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => VenueDetailsScreen(venue: venue),
+                    ),
+                  );
+                },
               ),
             );
           },

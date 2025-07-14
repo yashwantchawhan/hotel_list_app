@@ -10,6 +10,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  cached_network_image: ^3.3.0
+  datasource_core:
+    path: ../../libraries/core/datasource_core
 
 dev_dependencies:
   flutter_test:
