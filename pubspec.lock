@@ -786,6 +786,13 @@ packages:
       relative: true
     source: path
     version: "0.0.1"
+  venue_map:
+    dependency: transitive
+    description:
+      path: "packages/features/venue_map"
+      relative: true
+    source: path
+    version: "0.0.1"
   video_player:
     dependency: "direct main"
     description:

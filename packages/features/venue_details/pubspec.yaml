@@ -1,4 +1,4 @@
-name: venue_list
+name: venue_details
 description: "A new Flutter package project."
 version: 0.0.1
 publish_to: none
@@ -10,25 +10,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  provider: ^6.1.1
-  equatable: 2.0.7
-  flutter_bloc: 9.0.0
-  flutter_cache_manager: 3.3.1
-  infinite_scroll_pagination: 4.0.0
-  get_it: 8.0.3
-  video_player: 2.9.1
-  cached_video_player_plus: 3.0.3
-  design_common:
-    path: ../../libraries/design/design_common
-  datasource_core:
-      path: ../../libraries/core/datasource_core
-  venue_map:
-        path: ../../features/venue_map
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^4.0.0
-
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
