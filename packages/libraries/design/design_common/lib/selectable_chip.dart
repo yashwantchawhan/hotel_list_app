@@ -1,3 +1,5 @@
+import 'package:design_common/common_colors.dart';
+import 'package:design_common/common_dimensions.dart';
 import 'package:flutter/material.dart';
 
 class SelectableChip extends StatefulWidget {
@@ -37,18 +39,25 @@ class _SelectableChipState extends State<SelectableChip> {
     return GestureDetector(
       onTap: _toggleSelection,
       child: Container(
-        padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 6),
+        padding: const EdgeInsets.symmetric(
+          horizontal: CommonDimensions.chipHorizontalPadding,
+          vertical: CommonDimensions.chipVerticalPadding,
+        ),
         decoration: BoxDecoration(
-          color: _isSelected ? const Color(0xFF7A87A0) : Colors.white,
-          borderRadius: BorderRadius.circular(20),
+          color: _isSelected
+              ? CommonColors.chipSelectedBackground
+              : CommonColors.chipUnselectedBackground,
+          borderRadius: BorderRadius.circular(CommonDimensions.chipRadius),
           border: Border.all(
-            color: _isSelected ? Colors.blue : Colors.grey.shade400,
-            width: 1.5,
+            color: _isSelected
+                ? CommonColors.chipSelectedBorder
+                : CommonColors.chipUnselectedBorder,
+            width: CommonDimensions.chipBorderWidth,
           ),
           boxShadow: const [
             BoxShadow(
-              color: Colors.black12,
-              blurRadius: 2,
+              color: CommonColors.chipShadow,
+              blurRadius: CommonDimensions.chipShadowBlur,
               offset: Offset(0, 1),
             ),
           ],
@@ -56,8 +65,10 @@ class _SelectableChipState extends State<SelectableChip> {
         child: Text(
           widget.label,
           style: TextStyle(
-            color: _isSelected ? Colors.white : Colors.black,
-            fontSize: 14,
+            color: _isSelected
+                ? CommonColors.chipSelectedText
+                : CommonColors.chipUnselectedText,
+            fontSize: CommonDimensions.chipFontSize,
             fontWeight: _isSelected ? FontWeight.bold : FontWeight.normal,
           ),
         ),

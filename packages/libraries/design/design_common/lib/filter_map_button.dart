@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+import 'common_dimensions.dart';
+import 'localization.dart';
+
 class FilterAndMapButton extends StatelessWidget {
   const FilterAndMapButton({
     super.key,
@@ -17,7 +20,7 @@ class FilterAndMapButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return IntrinsicWidth(
       child: SizedBox(
-        height: 48,
+        height: CommonDimensions.dimen48,
         child: Stack(
           alignment: Alignment.center,
           children: [
@@ -25,16 +28,16 @@ class FilterAndMapButton extends StatelessWidget {
               height: 48,
               decoration: const BoxDecoration(
                 color: Colors.white,
-                borderRadius: BorderRadius.all(Radius.circular(100)),
+                borderRadius: BorderRadius.all(Radius.circular(CommonDimensions.dimen100)),
               ),
             ),
             Container(
               height: 32,
-              padding: const EdgeInsets.symmetric(horizontal: 8),
-              margin: const EdgeInsets.symmetric(horizontal: 8),
+              padding: const EdgeInsets.symmetric(horizontal: CommonDimensions.dimen8),
+              margin: const EdgeInsets.symmetric(horizontal: CommonDimensions.dimen8),
               decoration: const BoxDecoration(
                 color: Colors.white,
-                borderRadius: BorderRadius.all(Radius.circular(100)),
+                borderRadius: BorderRadius.all(Radius.circular(CommonDimensions.dimen100)),
               ),
               child: Row(
                 mainAxisSize: MainAxisSize.min,
@@ -45,25 +48,25 @@ class FilterAndMapButton extends StatelessWidget {
                     child: const Row(
                       children: [
                         Icon(Icons.map),
-                        SizedBox(width: 4),
-                        Text("Map"),
+                        SizedBox(width: CommonDimensions.dimen4),
+                        Text(Localization.map),
                       ],
                     ),
                   ),
-                  const SizedBox(width: 12),
+                  const SizedBox(width: CommonDimensions.dimen12),
                   Container(
                     width: 1,
                     height: double.infinity,
                     color: Colors.grey,
                   ),
-                  const SizedBox(width: 12),
+                  const SizedBox(width: CommonDimensions.dimen12),
                   GestureDetector(
                     onTap: onFilterTap,
                     child: const Row(
                       children: [
                         Icon(Icons.tune),
-                        SizedBox(width: 4),
-                        Text("Filters"),
+                        SizedBox(width: CommonDimensions.dimen4),
+                        Text(Localization.filters),
                       ],
                     ),
                   ),

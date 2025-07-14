@@ -1,14 +1,18 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:design_common/venue_card_configuration.dart';
+import 'package:design_common/common_colors.dart';
+import 'package:design_common/common_dimensions.dart';
 import 'package:flutter/material.dart';
-
 
 class VenueCard extends StatefulWidget {
   final VenueCardConfiguration configuration;
   final VoidCallback? onCardClick;
 
-
-  const VenueCard({super.key, required this.configuration, this.onCardClick,});
+  const VenueCard({
+    super.key,
+    required this.configuration,
+    this.onCardClick,
+  });
 
   @override
   State<VenueCard> createState() => _VenueCardState();
@@ -20,18 +24,18 @@ class _VenueCardState extends State<VenueCard> {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: widget.onCardClick ,
+      onTap: widget.onCardClick,
       child: Card(
         clipBehavior: Clip.antiAlias,
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(12),
+          borderRadius: BorderRadius.circular(CommonDimensions.cardRadius),
         ),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             // Image carousel
             SizedBox(
-              height: 200,
+              height: CommonDimensions.cardImageHeight,
               child: Stack(
                 alignment: Alignment.bottomCenter,
                 children: [
@@ -51,24 +55,30 @@ class _VenueCardState extends State<VenueCard> {
                           child: CircularProgressIndicator(),
                         ),
                         errorWidget: (context, url, error) =>
-                            const Icon(Icons.error_outline),
+                        const Icon(Icons.error_outline),
                       );
                     },
                   ),
                   // Slider dots
                   Positioned(
-                    bottom: 8,
+                    bottom: CommonDimensions.dotBottomPadding,
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.center,
-                      children: List.generate(widget.configuration.imageUrls.length, (index) {
+                      children: List.generate(
+                          widget.configuration.imageUrls.length, (index) {
                         return Container(
-                          margin: const EdgeInsets.symmetric(horizontal: 3),
-                          width: _currentIndex == index ? 8 : 6,
-                          height: _currentIndex == index ? 8 : 6,
+                          margin: const EdgeInsets.symmetric(
+                              horizontal: CommonDimensions.dotSpacing),
+                          width: _currentIndex == index
+                              ? CommonDimensions.dotSelectedSize
+                              : CommonDimensions.dotUnselectedSize,
+                          height: _currentIndex == index
+                              ? CommonDimensions.dotSelectedSize
+                              : CommonDimensions.dotUnselectedSize,
                           decoration: BoxDecoration(
                             color: _currentIndex == index
-                                ? Colors.white
-                                : Colors.white54,
+                                ? CommonColors.dotSelected
+                                : CommonColors.dotUnselected,
                             shape: BoxShape.circle,
                           ),
                         );
@@ -79,7 +89,7 @@ class _VenueCardState extends State<VenueCard> {
               ),
             ),
             Padding(
-              padding: const EdgeInsets.all(12.0),
+              padding: const EdgeInsets.all(CommonDimensions.cardPadding),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
@@ -89,7 +99,7 @@ class _VenueCardState extends State<VenueCard> {
                       fontWeight: FontWeight.bold,
                     ),
                   ),
-                  const SizedBox(height: 4),
+                  const SizedBox(height: CommonDimensions.cardSubtitleSpacing),
                   Text(
                     widget.configuration.subtitle,
                     style: Theme.of(context).textTheme.bodySmall,

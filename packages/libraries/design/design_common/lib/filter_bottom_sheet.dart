@@ -1,12 +1,17 @@
 import 'package:design_common/filter_chip_widget.dart';
+import 'package:design_common/localization.dart';
+import 'package:design_common/common_colors.dart';
+import 'package:design_common/common_dimensions.dart';
 import 'package:flutter/material.dart';
 
 void showFilterBottomSheet(BuildContext context) {
   showModalBottomSheet(
     context: context,
     isScrollControlled: true,
-    shape: const RoundedRectangleBorder(
-      borderRadius: BorderRadius.vertical(top: Radius.circular(16)),
+    shape:  const RoundedRectangleBorder(
+      borderRadius: BorderRadius.vertical(
+        top: Radius.circular(CommonDimensions.sheetRadius),
+      ),
     ),
     builder: (_) {
       return DraggableScrollableSheet(
@@ -15,67 +20,75 @@ void showFilterBottomSheet(BuildContext context) {
           return Column(
             children: [
               Container(
-                height: 4,
-                width: 40,
-                margin: const EdgeInsets.symmetric(vertical: 8),
+                height: CommonDimensions.handleHeight,
+                width: CommonDimensions.handleWidth,
+                margin: const EdgeInsets.symmetric(
+                  vertical: CommonDimensions.handleMargin,
+                ),
                 decoration: BoxDecoration(
-                  color: Colors.grey[300],
+                  color: CommonColors.sheetHandle,
                   borderRadius: BorderRadius.circular(2),
                 ),
               ),
               Expanded(
                 child: ListView(
                   controller: scrollController,
-                  padding: const EdgeInsets.all(16),
+                  padding: const EdgeInsets.all(CommonDimensions.listPadding),
                   children: [
                     const Text(
-                      'Filter by',
-                      style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+                      Localization.filterBy,
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: CommonDimensions.fontSize16,
+                      ),
                     ),
-                    const SizedBox(height: 8),
+                    const SizedBox(height: CommonDimensions.chipSpacing),
                     _buildCategoryTabs(),
                     const Divider(),
                     _buildSection(
-                      title: 'City',
+                      title: Localization.city,
                       child: const Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
-                          Text('All UAE'),
+                          Text(Localization.allUAE),
                           Icon(Icons.chevron_right),
                         ],
                       ),
                     ),
                     _buildSection(
-                      title: 'Available for today',
+                      title: Localization.availableForToday,
                       child: const Wrap(
-                        spacing: 8,
+                        spacing: CommonDimensions.chipSpacing,
                         children: [
-                          FilterChipWidget(label: 'Before 2pm'),
-                          FilterChipWidget(label: 'After 2pm'),
+                          FilterChipWidget(label: Localization.before2pm),
+                          FilterChipWidget(label: Localization.after2pm),
                         ],
                       ),
                     ),
                     _buildSection(
-                      title: 'Venue type',
+                      title: Localization.venueType,
                       child: const Wrap(
-                        spacing: 8,
+                        spacing: CommonDimensions.chipSpacing,
                         children: [
-                          FilterChipWidget(label: 'Hotel'),
-                          FilterChipWidget(label: 'Beach club'),
-                          FilterChipWidget(label: 'Community club'),
+                          FilterChipWidget(label: Localization.hotel),
+                          FilterChipWidget(label: Localization.beachClub),
+                          FilterChipWidget(label: Localization.communityClub),
                         ],
                       ),
                     ),
                     _buildSection(
-                      title: 'Hotel facilities',
+                      title: Localization.hotelFacilities,
                       child: const Wrap(
-                        spacing: 8,
+                        spacing: CommonDimensions.chipSpacing,
                         children: [
-                          FilterChipWidget(label: 'Beach'),
-                          FilterChipWidget(label: 'Kids pool'),
-                          FilterChipWidget(label: 'Adults-only pool'),
-                          FilterChipWidget(label: 'Rooftop pool'),
-                          TextButton(onPressed: null, child: Text('Show more')),
+                          FilterChipWidget(label: Localization.beach),
+                          FilterChipWidget(label: Localization.kidsPool),
+                          FilterChipWidget(label: Localization.adultsOnlyPool),
+                          FilterChipWidget(label: Localization.rooftopPool),
+                          TextButton(
+                            onPressed: null,
+                            child: Text(Localization.showMore),
+                          ),
                         ],
                       ),
                     ),
@@ -89,8 +102,10 @@ void showFilterBottomSheet(BuildContext context) {
                       child: TextButton(
                         onPressed: () {},
                         child: const Text(
-                          'Clear filters',
-                          style: TextStyle(color: Colors.red),
+                          Localization.clearFilters,
+                          style: TextStyle(
+                            color: CommonColors.clearFiltersText,
+                          ),
                         ),
                       ),
                     ),
@@ -98,12 +113,13 @@ void showFilterBottomSheet(BuildContext context) {
                       child: ElevatedButton(
                         onPressed: () {},
                         style: ElevatedButton.styleFrom(
-                          backgroundColor: const Color(0xFF7A87A0),
+                          backgroundColor: CommonColors.buttonBackground,
                           shape: RoundedRectangleBorder(
-                            borderRadius: BorderRadius.circular(24),
+                            borderRadius: BorderRadius.circular(
+                                CommonDimensions.buttonRadius),
                           ),
                         ),
-                        child: const Text('Show results'),
+                        child: const Text(Localization.showResults),
                       ),
                     ),
                   ],
@@ -121,10 +137,10 @@ Widget _buildCategoryTabs() {
   return const Row(
     mainAxisAlignment: MainAxisAlignment.spaceAround,
     children: [
-      _CategoryTab(label: 'Pool & Beach', icon: Icons.waves),
-      _CategoryTab(label: 'Fitness', icon: Icons.fitness_center),
-      _CategoryTab(label: 'Dining', icon: Icons.restaurant),
-      _CategoryTab(label: 'Family', icon: Icons.family_restroom),
+      _CategoryTab(label: Localization.poolAndBeach, icon: Icons.waves),
+      _CategoryTab(label: Localization.fitness, icon: Icons.fitness_center),
+      _CategoryTab(label: Localization.dining, icon: Icons.restaurant),
+      _CategoryTab(label: Localization.family, icon: Icons.family_restroom),
     ],
   );
 }
@@ -133,12 +149,12 @@ Widget _buildSection({required String title, required Widget child}) {
   return Column(
     crossAxisAlignment: CrossAxisAlignment.start,
     children: [
-      const SizedBox(height: 16),
+      const SizedBox(height: CommonDimensions.sectionSpacing),
       Text(
         title,
         style: const TextStyle(fontWeight: FontWeight.bold),
       ),
-      const SizedBox(height: 8),
+      const SizedBox(height: CommonDimensions.chipSpacing),
       child,
     ],
   );
@@ -155,8 +171,11 @@ class _CategoryTab extends StatelessWidget {
     return Column(
       children: [
         Icon(icon),
-        const SizedBox(height: 4),
-        Text(label, style: const TextStyle(fontSize: 12)),
+        const SizedBox(height: CommonDimensions.categoryIconSpacing),
+        Text(
+          label,
+          style: const TextStyle(fontSize: CommonDimensions.fontSize12),
+        ),
       ],
     );
   }
