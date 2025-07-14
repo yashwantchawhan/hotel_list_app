@@ -29,3 +29,11 @@ final class FilterViewEvent extends VenueEvent {
   List<Object?> get props => [];
 }
 
+class SearchVenue extends VenueEvent {
+  final String query;
+  const SearchVenue(this.query);
+  @override
+  List<Object> get props => [query];
+}
+
+

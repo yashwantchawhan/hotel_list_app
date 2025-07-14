@@ -1,3 +1,4 @@
+
 import 'package:design_common/design_common.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -65,13 +66,16 @@ class _VenueListScreenState extends State<VenueListScreen> {
               ),
             ],
           ),
-          child: const TextField(
+          child:  TextField(
             decoration: InputDecoration(
               hintText: 'Search...',
               prefixIcon: Icon(Icons.search),
               border: InputBorder.none,
               contentPadding: EdgeInsets.symmetric(horizontal: 16, vertical: 14),
             ),
+            onChanged: (value){
+              _onSearchQueryChanged(value);
+            },
           ),
         ),
       ),
@@ -172,6 +176,15 @@ class _VenueListScreenState extends State<VenueListScreen> {
         child: Center(child: CircularProgressIndicator()),
       );
     }
+  }
+
+  void _onSearchQueryChanged(String query) {
+    Future.delayed(const Duration(milliseconds: 200));
+      if (query.isEmpty) {
+        _bloc.add(const FetchVenue());
+      } else {
+        _bloc.add(SearchVenueEvent(query: query));
+      }
   }
 }
 

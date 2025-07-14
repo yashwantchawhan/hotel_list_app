@@ -14,6 +14,7 @@ class VenueBloc extends Bloc<VenueEvent, VenueState> {
     on<FetchVenue>(_fetchVenueList);
     on<MapViewEvent>(_fetchVenueLocationList);
     on<FilterViewEvent>(_loadFilters);
+    on<SearchVenueEvent>(_loadSearchResult);
   }
 
   Future<void> _fetchVenueList(
@@ -32,10 +33,16 @@ class VenueBloc extends Bloc<VenueEvent, VenueState> {
     emit(VenueMapViewState(venueItemList: data));
   }
 
-  FutureOr<void> _loadFilters(
-      FilterViewEvent event,
-      Emitter<VenueState> emit) {
+  FutureOr<void> _loadFilters(FilterViewEvent event, Emitter<VenueState> emit) {
     emit(const FilterViewState());
+  }
 
+  FutureOr<void> _loadSearchResult(SearchVenueEvent event, Emitter<VenueState> emit) async {
+    try {
+      final venues = await venueRepository.searchVenues(event.query);
+      emit(VenueLoadedState(venueItemList: venues));
+    } catch (e) {
+      emit(const VenueErrorState());
+    }
   }
 }
