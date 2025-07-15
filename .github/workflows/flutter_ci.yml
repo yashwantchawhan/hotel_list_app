@@ -17,7 +17,7 @@ jobs:
       - name: Setup Flutter
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.22.0' # Change to your version
+          flutter-version: '3.5.4'
           channel: stable
 
       - name: Install Dependencies
@@ -36,7 +36,6 @@ jobs:
         run: |
           flutter build ios --debug --no-codesign
 
-      # Optional: Upload coverage report
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v3
         with:
