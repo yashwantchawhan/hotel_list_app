@@ -14,6 +14,12 @@ The application displays venue information, allows users to filter venues, and v
     - Available activities with collapsible content
 - **Responsive Design**: Works on both iOS and Android devices
 
+### Screenshots
+- ** iOS
+[![Simulator Screenshot - iPhone 15 Pro Max - 2025-07-15 at 07.19.34.png](../../Desktop/Simulator%20Screenshot%20-%20iPhone%2015%20Pro%20Max%20-%202025-07-15%20at%2007.19.34.png)]
+- ** Android
+[![Screenshot_20250715_071955.png](../../Desktop/Screenshot_20250715_071955.png)]
+
 ### Technical Features
 - **State Management**: Provider pattern for clean state management
 - **Image Caching**: Efficient image loading and caching
