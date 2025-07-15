@@ -77,6 +77,19 @@ tests/                                # Unit, widget, and integration tests
 │   │   │   └── bloc_test.dart
 │   │   └── data_test.dart
 ```
+
+## Platform-Specific Setup
+
+### Android
+- **Minimum SDK:** API 21 (Android 5.0 Lollipop)
+- **Target SDK:** API 34 (Android 14)
+- **Compile SDK:** API 34 or higher
+- Google Maps API key required if maps functionality is enabled.
+
+### iOS
+- **Minimum iOS version:** 14.0
+- Google Maps API key required if maps functionality is enabled.
+
 ## Installation & Setup
 
 1. **Clone the repository**
@@ -95,14 +108,22 @@ tests/                                # Unit, widget, and integration tests
    flutter run
    ```
 
-## Platform-Specific Setup
+## Testing approach
+ - Unit tests: models, services, database.
+ - Widget tests: UI components like VenueCard, FilterBottomSheet.
+ - Integration: DAO + repository interactions.
 
-### Android
-- **Minimum SDK:** API 21 (Android 5.0 Lollipop)
-- **Target SDK:** API 34 (Android 14)
-- **Compile SDK:** API 34 or higher
-- Google Maps API key required if maps functionality is enabled.
+## Third-Party Libraries Used
+| Library                      | Why?                                 |
+|------------------------------|--------------------------------------|
+| `sqflite` / `sqflite_common_ffi` | Local database (SQLite)           |
+| `mocktail`                   | Mocking in unit & widget tests      |
+| `bloc_test`                  | Bloc/Cubit testing                  |
+| `provider` (optional)        | Lightweight state management        |
+| `cached_network_image`       | Caching images efficiently          |
 
-### iOS
-- **Minimum iOS version:** 14.0
-- Google Maps API key required if maps functionality is enabled.
+## Design Decisions & Challenges
+  - Why modular architecture?
+    - Encourages separation of concerns.
+    - Easier to maintain & test.
+    - Facilitates scaling the app with new modules.
