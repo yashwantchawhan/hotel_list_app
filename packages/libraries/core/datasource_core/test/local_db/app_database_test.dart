@@ -1,10 +1,15 @@
+import 'dart:io';
+
 import 'package:datasource_core/local_db/app_database.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:sqflite_common_ffi/sqflite_ffi.dart';
 
 void main() {
   sqfliteFfiInit();
-
+  setUp(() async {
+    final file = File('/path/to/venues.db');
+    if (await file.exists()) await file.delete();
+  });
   setUpAll(() {
     // Replace the default factory with ffi factory for tests
     databaseFactory = databaseFactoryFfi;
