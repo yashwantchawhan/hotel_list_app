@@ -35,7 +35,7 @@ void main() {
   ];
 
   setUpAll(() {
-    registerFallbackValue(FetchVenue());
+    registerFallbackValue(const FetchVenue());
     registerFallbackValue(VenueLoadingState());
   });
 

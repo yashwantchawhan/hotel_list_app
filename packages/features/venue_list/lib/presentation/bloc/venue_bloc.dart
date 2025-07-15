@@ -8,7 +8,7 @@ import 'package:venue_list/presentation/bloc/venue_event.dart';
 import 'package:venue_list/presentation/bloc/venue_state.dart';
 
 class VenueBloc extends Bloc<VenueEvent, VenueState> {
-  final VenueRepository venueRepository;
+  final VenueRepositoryImpl venueRepository;
   final VenueDetailsModelMapper venueDetailsModelMapper;
   final VenueDataModelMapper venueDataModelMapper;
 

@@ -1,0 +1,44 @@
+import 'dart:convert';
+
+import 'package:datasource_core/models/venue_data_display.dart';
+import 'package:datasource_core/models/venue_item.dart';
+import 'package:flutter/services.dart';
+
+const String _localDataPath = 'assets/data/venues.json';
+
+abstract class ApiService {
+  Future<List<VenueItem>> getAllVenues();
+  Future<List<FilterItem>?> getFilters();
+}
+
+class ApiServiceImpl extends ApiService {
+  @override
+  Future<List<VenueItem>> getAllVenues() async {
+    final jsonString = await rootBundle.loadString(_localDataPath);
+    final jsonData = jsonDecode(jsonString) as Map<String, dynamic>;
+
+    final venues = <VenueItem>[];
+
+    for (var json in jsonData['items'] ?? []) {
+      venues.add(VenueItem.fromJson(json));
+    }
+    return venues;
+  }
+
+  @override
+  Future<List<FilterItem>?> getFilters() async {
+    try {
+      final jsonString = await rootBundle.loadString(_localDataPath);
+      final jsonData = jsonDecode(jsonString) as Map<String, dynamic>;
+      final filters = <FilterItem>[];
+
+      for (var json in jsonData['filters'] ?? []) {
+        filters.add(FilterItem.fromJson(json));
+      }
+      return filters;
+    } catch (e) {
+      print('Failed to load venues & filters from assets: $e');
+      return null;
+    }
+  }
+}

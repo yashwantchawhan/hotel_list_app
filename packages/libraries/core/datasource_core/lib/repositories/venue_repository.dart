@@ -1,44 +1,55 @@
 import 'dart:convert';
 import 'package:datasource_core/models/venue_data_display.dart';
+import 'package:datasource_core/remote/api_service.dart';
 import 'package:flutter/services.dart';
 import 'package:datasource_core/local_db/venue_dao.dart';
 import '../models/venue_item.dart';
 
 import 'dart:async';
 
-class VenueRepository {
-  final VenueDao _venueDao = VenueDao();
-  static const String _localDataPath = 'assets/data/venues.json';
+abstract class VenueRepository {
+  Future<List<VenueItem>> getVenues();
+  Future<VenueItem?> getVenueByName(String name);
+  Future<List<FilterItem>?> getFiltersFromAssets();
+  Future<List<VenueItem>> searchVenues(String query);
+}
+
+
+class VenueRepositoryImpl extends VenueRepository {
+  final VenueDao venueDao;
+  final ApiService apiService;
+
+  VenueRepositoryImpl({required this.venueDao,required this.apiService});
 
   final StreamController<List<VenueItem>> _venueController =
   StreamController.broadcast();
 
   Stream<List<VenueItem>> get venueStream => _venueController.stream;
 
+  @override
   Future<List<VenueItem>> getVenues() async {
-    final cachedVenues = await _venueDao.getAllVenues();
+    final cachedVenues = await venueDao.getAllVenues();
     if (cachedVenues.isEmpty) {
       await _refreshFromAssets();
-      final freshVenues = await _venueDao.getAllVenues();
+      final freshVenues = await venueDao.getAllVenues();
       _venueController.add(freshVenues);
       return freshVenues;
     } else {
-      // emit current
       _venueController.add(cachedVenues);
-      // background refresh
       _refreshFromAssets();
       return cachedVenues;
     }
   }
 
+  @override
   Future<VenueItem?> getVenueByName(String name) async {
-    final venue = await _venueDao.getVenueByName(name);
+    final venue = await venueDao.getVenueByName(name);
 
     if (venue == null) {
       await _refreshFromAssets();
 
       // After refreshing, try again
-      final refreshedVenue = await _venueDao.getVenueByName(name);
+      final refreshedVenue = await venueDao.getVenueByName(name);
       return refreshedVenue;
     }
 
@@ -48,45 +59,26 @@ class VenueRepository {
 
   Future<void> _refreshFromAssets() async {
     try {
-      final jsonString = await rootBundle.loadString(_localDataPath);
-      final jsonData = jsonDecode(jsonString) as Map<String, dynamic>;
+      final venues = await apiService.getAllVenues();
+      await venueDao.clearVenues();
+      await venueDao.insertVenues(venues);
 
-      final venues = <VenueItem>[];
-
-      for (var json in jsonData['items'] ?? []) {
-        venues.add(VenueItem.fromJson(json));
-      }
-
-      await _venueDao.clearVenues();
-      await _venueDao.insertVenues(venues);
-
-      // push to stream after refreshing
-      final updatedVenues = await _venueDao.getAllVenues();
+      final updatedVenues = await venueDao.getAllVenues();
       _venueController.add(updatedVenues);
     } catch (e) {
       print('Failed to refresh venues from assets: $e');
     }
   }
 
+  @override
   Future<List<FilterItem>?> getFiltersFromAssets() async {
-    try {
-      final jsonString = await rootBundle.loadString(_localDataPath);
-      final jsonData = jsonDecode(jsonString) as Map<String, dynamic>;
-      final filters = <FilterItem>[];
-
-      for (var json in jsonData['filters'] ?? []) {
-        filters.add(FilterItem.fromJson(json));
-      }
-      return filters;
-    } catch (e) {
-      print('Failed to load venues & filters from assets: $e');
-      return null;
-    }
+    return apiService.getFilters();
   }
 
 
+  @override
   Future<List<VenueItem>> searchVenues(String query) async {
-    final allVenues = await _venueDao.getAllVenues();
+    final allVenues = await venueDao.getAllVenues();
 
     final lowerQuery = query.toLowerCase();
 
