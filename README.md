@@ -21,10 +21,72 @@ The application displays venue information, allows users to filter venues, and v
 - **Offline Support**: Local storage capabilities
 - **Testing**: Unit tests, widget tests, and integration tests
 
-
+### Directory Structure
 ```
 lib/
-├── models/           # Data models
-│   ├── venue.dart    # Venue and related models
-
+├── main.dart                         # Entry point of the application
+packages/                             # Modularized code for features & libraries
+├── features/                         # Feature modules (user-facing functionality)
+│   ├── venue_details/                # Venue Details Screen
+│   │   └── presentation/
+│   │       └── widgets/              # Widgets for venue details
+│   ├── venue_list/                   # Venue List Screen with MVVM & BLoC
+│   │   ├── di/                       # Dependency Injection setup
+│   │   │   └── provider/             # Providers, bindings, etc.
+│   │   ├── data/                     # Data sources (API, DB)
+│   │   ├── domain/                   # Business logic layer
+│   │   │   └── mapper/               # DTO-to-domain mappers
+│   │   └── presentation/             # Presentation layer
+│   │       ├── bloc/                 # BLoC (state & event)
+│   │       └── widgets/              # UI widgets for venue list
+│   └── venue_map/                    # Map with Venue Pins
+│       └── presentation/
+│           └── widgets/              # Map-specific UI components
+├── libraries/                        # Shared libraries & reusable modules
+│   ├── core/                         # App core services & utilities
+│   │   └── datasource_core/
+│   │       ├── local_db/             # Local database (SQLite helpers, DAOs)
+│   │       ├── models/               # Shared domain models
+│   │       ├── remote/               # Remote services (API clients)
+│   │       └── repositories/         # Repository implementations
+│
+│   └── design/                       # Design System
+│       └── design_common/
+│           ├── widgets/              # Shared reusable widgets (e.g., VenueCard)
+│           └── tokens/               # Design tokens: colors, dimensions, typography
+tests/                                # Unit, widget, and integration tests
+├── features/
+│   ├── venue_list/
+│   │   ├── presentation/
+│   │   │   └── bloc_test.dart
+│   │   └── data_test.dart
 ```
+## Installation & Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone <repository-url>
+   cd hotel_list_app
+   ```
+
+2. **Install dependencies**
+   ```bash
+   flutter pub get
+   ```
+
+3. **Run the application**
+   ```bash
+   flutter run
+   ```
+
+## Platform-Specific Setup
+
+### Android
+- **Minimum SDK:** API 21 (Android 5.0 Lollipop)
+- **Target SDK:** API 34 (Android 14)
+- **Compile SDK:** API 34 or higher
+- Google Maps API key required if maps functionality is enabled.
+
+### iOS
+- **Minimum iOS version:** 14.0
+- Google Maps API key required if maps functionality is enabled.
