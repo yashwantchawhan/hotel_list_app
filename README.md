@@ -16,10 +16,10 @@ The application displays venue information, allows users to filter venues, and v
 
 ### Screenshots
 - ** iOS
-<img width="1290" height="2796" alt="Simulator Screenshot - iPhone 15 Pro Max - 2025-07-15 at 07 19 34" src="https://github.com/user-attachments/assets/b06284df-eb40-43ff-b38d-67a2d76f9a0c" />
+<img width="400" height="500" alt="Simulator Screenshot - iPhone 15 Pro Max - 2025-07-15 at 07 19 34" src="https://github.com/user-attachments/assets/b06284df-eb40-43ff-b38d-67a2d76f9a0c" />
 
 - ** Android
-<img width="1080" height="2400" alt="Screenshot_20250715_071955" src="https://github.com/user-attachments/assets/6eb153c6-47c4-4238-b58c-4d5490de4357" />
+<img width="400" height="500" alt="Screenshot_20250715_071955" src="https://github.com/user-attachments/assets/6eb153c6-47c4-4238-b58c-4d5490de4357" />
 
 ### Technical Features
 - **State Management**: Provider pattern for clean state management
