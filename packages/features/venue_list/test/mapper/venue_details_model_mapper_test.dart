@@ -2,7 +2,6 @@ import 'package:datasource_core/models/category.dart';
 import 'package:datasource_core/models/things_to_do.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:datasource_core/models/venue_item.dart';
-import 'package:datasource_core/models/venue_item_display_model.dart';
 import 'package:venue_list/domain/venue_details_model_mapper.dart';
 
 void main() {
@@ -44,7 +43,7 @@ void main() {
       ],
     );
 
-    final result = mapper.map(venueItem);
+    final result = mapper.mapToVenueDetailsDisplayModel(venueItem);
 
     expect(result.name, equals('Venue 1'));
     expect(result.location, equals('Location 1, City 1'));

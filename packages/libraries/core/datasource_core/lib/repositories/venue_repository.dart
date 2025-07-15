@@ -1,7 +1,5 @@
-import 'dart:convert';
 import 'package:datasource_core/models/venue_data_display.dart';
 import 'package:datasource_core/remote/api_service.dart';
-import 'package:flutter/services.dart';
 import 'package:datasource_core/local_db/venue_dao.dart';
 import '../models/venue_item.dart';
 
@@ -65,9 +63,7 @@ class VenueRepositoryImpl extends VenueRepository {
 
       final updatedVenues = await venueDao.getAllVenues();
       _venueController.add(updatedVenues);
-    } catch (e) {
-      print('Failed to refresh venues from assets: $e');
-    }
+    } catch (_) {}
   }
 
   @override

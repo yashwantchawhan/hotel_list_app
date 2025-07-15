@@ -40,8 +40,7 @@ class ApiServiceImpl extends ApiService {
         filters.add(FilterItem.fromJson(json));
       }
       return filters;
-    } catch (e) {
-      print('Failed to load venues & filters from assets: $e');
+    } catch (_) {
       return null;
     }
   }

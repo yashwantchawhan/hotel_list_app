@@ -52,7 +52,7 @@ class VenueBloc extends Bloc<VenueEvent, VenueState> {
     try {
       final venues = await venueRepository.searchVenues(event.query);
       final filters = await venueRepository.getFiltersFromAssets();
-      final venueDataDisplay = venueDataModelMapper.map(venues, filters!);
+      final venueDataDisplay = venueDataModelMapper.mapToVenueDataDisplayModel(venues, filters!);
       emit(VenueLoadedState(venueDataDisplayModel: venueDataDisplay));
     } catch (e) {
       emit(const VenueErrorState(errorMessage: "Search failed, please use right word to search"));
@@ -64,7 +64,7 @@ class VenueBloc extends Bloc<VenueEvent, VenueState> {
     try {
       final venue = await venueRepository.getVenueByName(event.name);
       if (venue != null) {
-        final venueDisplay = venueDetailsModelMapper.map(venue);
+        final venueDisplay = venueDetailsModelMapper.mapToVenueDetailsDisplayModel(venue);
         emit(VenueDetailState(venueItem: venueDisplay));
       } else {
         emit(const VenueErrorState(errorMessage: "Failed to load details screen"));

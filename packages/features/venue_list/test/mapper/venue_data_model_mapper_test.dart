@@ -48,7 +48,7 @@ void main() {
       ),
     ];
 
-    final result = mapper.map(venues, filters);
+    final result = mapper.mapToVenueDataDisplayModel(venues, filters);
 
     expect(result, isA<VenueDataDisplayModel>());
     expect(result.venues, equals(venues));
@@ -60,7 +60,7 @@ void main() {
   });
 
   test('map() handles empty lists', () {
-    final result = mapper.map([], []);
+    final result = mapper.mapToVenueDataDisplayModel([], []);
 
     expect(result.venues, isEmpty);
     expect(result.filters, isEmpty);

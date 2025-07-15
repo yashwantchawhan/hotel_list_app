@@ -81,7 +81,7 @@ void main() {
     build: () {
       when(() => repository.searchVenues(any())).thenAnswer((_) async => []);
       when(() => repository.getFiltersFromAssets()).thenAnswer((_) async => []);
-      when(() => dataMapper.map(any(), any())).thenReturn(
+      when(() => dataMapper.mapToVenueDataDisplayModel(any(), any())).thenReturn(
         VenueDataDisplayModel(venues: [], filters: []),
       );
       return bloc;
@@ -124,7 +124,7 @@ void main() {
                 overviewText: [],
                 thingsToDo: [],
               ));
-      when(() => detailsMapper.map(any())).thenReturn(
+      when(() => detailsMapper.mapToVenueDetailsDisplayModel(any())).thenReturn(
         VenueDetailsDisplayModel(
           name: '',
           location: '',

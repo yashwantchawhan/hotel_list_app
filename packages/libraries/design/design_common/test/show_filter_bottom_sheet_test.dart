@@ -25,8 +25,6 @@ void main() {
     await tester.tap(find.text('Open Sheet'));
     await tester.pumpAndSettle();
 
-    final visibleTexts = tester.widgetList(find.byType(Text)).map((e) => (e as Text).data).toList();
-    print('Visible texts on screen: $visibleTexts');
 
     expect(find.text(Localization.filterBy), findsOneWidget);
     expect(find.text(Localization.city), findsOneWidget);

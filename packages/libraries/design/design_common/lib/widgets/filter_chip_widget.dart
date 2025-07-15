@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class FilterChipWidget extends StatefulWidget {
   final String label;
 
-  const FilterChipWidget({required this.label});
+  const FilterChipWidget({super.key, required this.label});
 
   @override
   State<FilterChipWidget> createState() => _FilterChipWidgetState();
