@@ -26,8 +26,12 @@ jobs:
       - name: Run Analyzer
         run: flutter analyze
 
-      - name: Run Tests
-        run: flutter test --coverage
+      - name: Run All Tests
+        run: |
+          for dir in $(find . -type d -name test); do
+            echo "Running tests in $dir"
+            flutter test --coverage $dir || exit 1
+          done
 
       - name: Build Android APK
         run: flutter build apk --debug
