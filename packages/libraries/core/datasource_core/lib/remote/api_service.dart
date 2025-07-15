@@ -12,9 +12,13 @@ abstract class ApiService {
 }
 
 class ApiServiceImpl extends ApiService {
+  final AssetBundle bundle;
+
+  ApiServiceImpl({AssetBundle? bundle}) : bundle = bundle ?? rootBundle;
+
   @override
   Future<List<VenueItem>> getAllVenues() async {
-    final jsonString = await rootBundle.loadString(_localDataPath);
+    final jsonString = await bundle.loadString(_localDataPath);
     final jsonData = jsonDecode(jsonString) as Map<String, dynamic>;
 
     final venues = <VenueItem>[];
@@ -28,7 +32,7 @@ class ApiServiceImpl extends ApiService {
   @override
   Future<List<FilterItem>?> getFilters() async {
     try {
-      final jsonString = await rootBundle.loadString(_localDataPath);
+      final jsonString = await bundle.loadString(_localDataPath);
       final jsonData = jsonDecode(jsonString) as Map<String, dynamic>;
       final filters = <FilterItem>[];
 
