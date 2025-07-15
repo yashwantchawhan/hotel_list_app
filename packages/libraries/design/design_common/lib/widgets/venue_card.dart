@@ -1,7 +1,7 @@
 import 'package:cached_network_image/cached_network_image.dart';
-import 'package:design_common/venue_card_configuration.dart';
-import 'package:design_common/common_colors.dart';
-import 'package:design_common/common_dimensions.dart';
+import 'package:design_common/tokens/common_colors.dart';
+import 'package:design_common/tokens/common_dimensions.dart';
+import 'package:design_common/widgets/venue_card_configuration.dart';
 import 'package:flutter/material.dart';
 
 class VenueCard extends StatefulWidget {

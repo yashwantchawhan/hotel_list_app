@@ -1,7 +1,7 @@
+import 'package:design_common/widgets/venue_card.dart';
+import 'package:design_common/widgets/venue_card_configuration.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:design_common/venue_card.dart';
-import 'package:design_common/venue_card_configuration.dart';
 
 void main() {
   setUpAll(() {

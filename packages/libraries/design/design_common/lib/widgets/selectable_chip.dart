@@ -1,5 +1,5 @@
-import 'package:design_common/common_colors.dart';
-import 'package:design_common/common_dimensions.dart';
+import 'package:design_common/tokens/common_colors.dart';
+import 'package:design_common/tokens/common_dimensions.dart';
 import 'package:flutter/material.dart';
 
 class SelectableChip extends StatefulWidget {

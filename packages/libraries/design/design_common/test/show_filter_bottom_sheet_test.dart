@@ -1,7 +1,7 @@
+import 'package:design_common/tokens/localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:design_common/filter_bottom_sheet.dart';
-import 'package:design_common/localization.dart';
+import 'package:design_common/widgets/filter_bottom_sheet.dart';
 
 void main() {
   testWidgets('showFilterBottomSheet displays correctly', (tester) async {

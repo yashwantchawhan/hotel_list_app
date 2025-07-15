@@ -1,4 +1,4 @@
-import 'package:design_common/filter_chip_widget.dart';
+import 'package:design_common/widgets/filter_chip_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 

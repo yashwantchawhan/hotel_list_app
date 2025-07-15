@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:design_common/selectable_chip.dart';
+import 'package:design_common/widgets/selectable_chip.dart';
 
 void main() {
   testWidgets('SelectableChip shows label & toggles selection', (tester) async {

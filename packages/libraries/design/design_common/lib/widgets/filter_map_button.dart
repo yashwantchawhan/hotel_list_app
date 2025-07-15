@@ -1,7 +1,7 @@
+import 'package:design_common/tokens/common_dimensions.dart';
+import 'package:design_common/tokens/localization.dart';
 import 'package:flutter/material.dart';
 
-import 'common_dimensions.dart';
-import 'localization.dart';
 
 class FilterAndMapButton extends StatelessWidget {
   const FilterAndMapButton({

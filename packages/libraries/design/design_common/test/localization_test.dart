@@ -1,4 +1,4 @@
-import 'package:design_common/localization.dart';
+import 'package:design_common/tokens/localization.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

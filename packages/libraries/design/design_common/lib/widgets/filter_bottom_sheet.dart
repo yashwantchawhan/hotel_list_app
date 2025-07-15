@@ -1,7 +1,7 @@
-import 'package:design_common/filter_chip_widget.dart';
-import 'package:design_common/localization.dart';
-import 'package:design_common/common_colors.dart';
-import 'package:design_common/common_dimensions.dart';
+import 'package:design_common/tokens/common_colors.dart';
+import 'package:design_common/tokens/common_dimensions.dart';
+import 'package:design_common/tokens/localization.dart';
+import 'package:design_common/widgets/filter_chip_widget.dart';
 import 'package:flutter/material.dart';
 
 void showFilterBottomSheet(BuildContext context) {
